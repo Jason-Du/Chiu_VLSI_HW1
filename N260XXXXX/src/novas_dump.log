@@ -91,11 +91,11 @@ IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
 TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
 Runtime command line arguments:
 argv[0]=ncverilog
-argv[1]=ALU_op.sv
+argv[1]=Register.sv
 94 profile - 100
-          CPU/Mem usage: 0.030 sys,  0.010 user,  60.98M sys,  0.00M vm
+          CPU/Mem usage: 0.030 sys,  0.020 user,  61.09M sys,  0.00M vm
 95 VC callback profile - scalar:0 vector:0
-96 Tue Sep 29 00:38:56 2020
+96 Tue Sep 29 20:18:23 2020
 97 pliAppInit
 98 FSDB_GATE is disabled.
 99 Enable Parallel Dumping.

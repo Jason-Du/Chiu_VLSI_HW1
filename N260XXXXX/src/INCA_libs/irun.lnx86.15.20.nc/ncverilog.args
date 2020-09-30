@@ -2,4 +2,4 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-ALU_op.sv
+Register.sv
