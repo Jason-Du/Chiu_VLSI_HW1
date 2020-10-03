@@ -1,33 +1,25 @@
 ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Sep 29, 2020 at 20:18:21 CST
+TOOL:	ncverilog	15.20-s039: Started on Oct 04, 2020 at 01:58:52 CST
 ncverilog
-	Register.sv
-file: Register.sv
-	module worklib.Register32x16K:sv
+	alu_pc_rtl.sv
+	-c
+file: alu_pc_rtl.sv
+	module worklib.alu_pc:sv
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
 ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.Register32x16K:sv <0x6c31f0b6>
-			streams:   3, words:  3462
+		worklib.alu_pc:sv <0x08dfb14c>
+			streams:   0, words:     0
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
-		         Instances  Unique
-		Modules:         1       1
-		Registers:       5       5
-		Scalar wires:    1       -
-		Vectored wires:  4       -
-		Always blocks:   1       1
-		Assertions:      1       1
-	Writing initial simulation snapshot: worklib.Register32x16K:sv
-Loading snapshot worklib.Register32x16K:sv .................... Done
-ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
-*Verdi* Loading libsscore_ius152.so
-ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
-ncsim> run
-ncsim: *W,RNQUIE: Simulation is complete.
-ncsim> exit
-TOOL:	ncverilog	15.20-s039: Exiting on Sep 29, 2020 at 20:18:23 CST  (total: 00:00:02)
+		                  Instances  Unique
+		Modules:                  1       1
+		Registers:                2       2
+		Always blocks:            1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.alu_pc:sv
+TOOL:	ncverilog	15.20-s039: Exiting on Oct 04, 2020 at 01:58:52 CST  (total: 00:00:00)

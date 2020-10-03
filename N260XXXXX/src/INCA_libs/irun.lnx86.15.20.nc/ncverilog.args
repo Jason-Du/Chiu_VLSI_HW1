@@ -2,4 +2,5 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-Register.sv
+alu_pc_rtl.sv
+-c
