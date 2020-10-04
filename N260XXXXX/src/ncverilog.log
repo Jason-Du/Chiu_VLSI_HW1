@@ -1,25 +1,25 @@
 ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Oct 04, 2020 at 01:58:52 CST
+TOOL:	ncverilog	15.20-s039: Started on Oct 04, 2020 at 20:02:29 CST
 ncverilog
-	alu_pc_rtl.sv
+	control_rtl.sv
 	-c
-file: alu_pc_rtl.sv
-	module worklib.alu_pc:sv
+file: control_rtl.sv
+	module worklib.control:sv
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
 ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.alu_pc:sv <0x08dfb14c>
+		worklib.control:sv <0x20582842>
 			streams:   0, words:     0
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                  Instances  Unique
 		Modules:                  1       1
-		Registers:                2       2
+		Registers:               11      11
 		Always blocks:            1       1
 		Simulation timescale:  10ps
-	Writing initial simulation snapshot: worklib.alu_pc:sv
-TOOL:	ncverilog	15.20-s039: Exiting on Oct 04, 2020 at 01:58:52 CST  (total: 00:00:00)
+	Writing initial simulation snapshot: worklib.control:sv
+TOOL:	ncverilog	15.20-s039: Exiting on Oct 04, 2020 at 20:02:29 CST  (total: 00:00:00)

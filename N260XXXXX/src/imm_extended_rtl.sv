@@ -54,8 +54,9 @@ begin:extended_imm_block
 			imm_data=32'(signed'({imm_j_data,1'b0}));
 		end
 		default:
+		begin
 			imm_data=32'd0;
-	
+		end
 	endcase
 end
 

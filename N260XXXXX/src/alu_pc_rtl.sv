@@ -6,7 +6,10 @@ module alu_pc(
 				src2,
 				pc,
 				
-				pc_jump_address
+				pc_jump_address,
+				id_exe_rst,
+				if_id_rst,
+				pc_jump_control
 				);
 				
 parameter DATA_SIZE  =32;
@@ -18,6 +21,9 @@ input        [DATA_SIZE-1:0] src2;
 input        [DATA_SIZE-1:0] pc;
 
 output logic [DATA_SIZE-1:0] pc_jump_address;
+output logic                 if_id_rst;
+output logic                 id_exe_rst;
+output logic                 pc_jump_control;
 
 logic        [DATA_SIZE-1:0] pc_jump_address_overflow;
 
@@ -27,37 +33,69 @@ begin
 		3'd0:
 		begin
 			pc_jump_address_overflow=signed'(src1)+signed'(imm_data);
-			pc_jump_address         ={pc_jump_address[31:1],1'b0};
+			pc_jump_address         ={pc_jump_address_overflow[31:1],1'b0};
+			if_id_rst               =1'b1;
+			id_exe_rst              =1'b1;
+			pc_jump_control         =1'b1;
 		end
 		3'd1:
 		begin
-			pc_jump_address=(src1==src2)?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			pc_jump_address =(src1==src2)?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			if_id_rst       =(src1==src2)?1'b1:1'b0;
+			id_exe_rst      =(src1==src2)?1'b1:1'b0;
+			pc_jump_control =(src1==src2)?1'b1:1'b0;
 		end
 		3'd2:
 		begin
-			pc_jump_address=(src1!=src2)?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			pc_jump_address =(src1!=src2)?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+		    if_id_rst       =(src1!=src2)?1'b1:1'b0;
+			id_exe_rst      =(src1!=src2)?1'b1:1'b0;
+			pc_jump_control =(src1!=src2)?1'b1:1'b0;
 		end
 		3'd3:
 		begin
-			pc_jump_address=(signed'(src1)<signed'(src2))?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			pc_jump_address =(signed'(src1)<signed'(src2))?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			if_id_rst       =(signed'(src1)<signed'(src2))?1'b1:1'b0;
+			id_exe_rst      =(signed'(src1)<signed'(src2))?1'b1:1'b0;
+			pc_jump_control =(signed'(src1)<signed'(src2))?1'b1:1'b0;
 		end
 		3'd4:
 		begin
-			pc_jump_address=(signed'(src1)>=signed'(src2))?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			pc_jump_address =(signed'(src1)>=signed'(src2))?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			if_id_rst       =(signed'(src1)>=signed'(src2))?1'b1:1'b0;
+			id_exe_rst      =(signed'(src1)>=signed'(src2))?1'b1:1'b0;
+			pc_jump_control =(signed'(src1)>=signed'(src2))?1'b1:1'b0;
 		end
 		3'd5:
 		begin
-			pc_jump_address=(unsigned'(src1)<unsigned'(src2))?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			pc_jump_address =(unsigned'(src1)<unsigned'(src2))?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			if_id_rst       =(unsigned'(src1)<unsigned'(src2))?1'b1:1'b0;
+			id_exe_rst      =(unsigned'(src1)<unsigned'(src2))?1'b1:1'b0;
+			pc_jump_control =(unsigned'(src1)<unsigned'(src2))?1'b1:1'b0;
 		end		
 		3'd6:
 		begin
-			pc_jump_address=(unsigned'(src1)>=unsigned'(src2))?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			pc_jump_address =(unsigned'(src1)>=unsigned'(src2))?unsigned'(pc)+signed'(imm_data):pc+32'd4;
+			if_id_rst       =(unsigned'(src1)>=unsigned'(src2))?1'b1:1'b0;
+			id_exe_rst      =(unsigned'(src1)>=unsigned'(src2))?1'b1:1'b0;
+			pc_jump_control =(unsigned'(src1)>=unsigned'(src2))?1'b1:1'b0;			
 		end
 		3'd7:
 		begin
-			pc_jump_address=unsigned'(pc)+signed'(imm_data);
-		end		
+			pc_jump_address  =unsigned'(pc)+signed'(imm_data);
+			if_id_rst        =1'b1;
+			id_exe_rst       =1'b1;
+			pc_jump_control  =1'b1;
+		end
+		default:
+		begin
+			pc_jump_address=32'd0;
+			if_id_rst      =1'b0;
+			id_exe_rst     =1'b0;
+			pc_jump_control=1'b0;
+		end
 	endcase
+	
 end
 
 endmodule

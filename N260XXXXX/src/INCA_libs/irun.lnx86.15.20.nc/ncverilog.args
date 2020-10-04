@@ -2,5 +2,5 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-alu_pc_rtl.sv
+control_rtl.sv
 -c
