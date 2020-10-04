@@ -21,9 +21,9 @@ input                       clk;
 input                       rst;
 input                       read_reg;
 input                       write_reg;
-input        [          5:0]rs1_addr;
-input        [          5:0]rs2_addr;
-input        [          5:0]rd_addr;
+input        [          4:0]rs1_addr;
+input        [          4:0]rs2_addr;
+input        [          4:0]rd_addr;
 input        [DATA_SIZE-1:0]write_data;
 
 
