@@ -3,6 +3,7 @@
  module pause_instruction_controller(
 									instruction_stall,
 									instruction,
+									past_instruction,
 									
 									instruction_data
 									);
@@ -11,10 +12,11 @@
   output logic [DATA_SIZE-1:0] instruction_data;
   
   input        [DATA_SIZE-1:0] instruction;
+  input        [DATA_SIZE-1:0] past_instruction,
   input                        instruction_stall;
   
   always_comb
   begin
-	instruction_data=instruction_stall?{25'd0,7'b0110011}:instruction
+	instruction_data=instruction_stall?past_instruction:instruction
   end
   endmodule

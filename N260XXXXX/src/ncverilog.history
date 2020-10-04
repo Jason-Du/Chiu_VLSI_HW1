@@ -123,3 +123,8 @@ s122(04Oct2020:20:02:15):  ncverilog control_rtl.sv -c
 s123(04Oct2020:20:02:29):  ncverilog control_rtl.sv -c 
 s124(04Oct2020:21:35:55):  ncverilog forwarding_unit_rtl.sv -c 
 s125(04Oct2020:21:57:30):  ncverilog load_hazard_rtl.sv -c 
+s126(05Oct2020:01:40:07):  ncverilog id_exe_rst_controller_rtl.sv -c 
+s127(05Oct2020:01:40:18):  ncverilog if_id_rst_controller_rtl.sv -c 
+s128(05Oct2020:01:40:21):  ncverilog if_id_rst_controller_rtl.sv -c 
+s129(05Oct2020:01:41:04):  ncverilog if_id_rst_controller_rtl.sv -c 
+s130(05Oct2020:01:41:18):  ncverilog if_id_rst_controller_rtl.sv -c 

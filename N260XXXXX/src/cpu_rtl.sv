@@ -5,7 +5,13 @@
 `include "control_rtl.sv"
 `include "register_rtl"
 `include "imm_extended_rtl.sv"
-`include "rst_controller_rtl.sv"
+`include "if_id_rst_controller_rtl.sv"
+`include "id_exe_rst_controller_rtl.sv"
+`include "alu_rd_rtl"
+`include "alu_in_selector_rtl.sv"
+`include "alu_addr_rtl.sv"
+`include "alu_pc_rtl.sv"
+`include "load_hazard_rtl.sv"
 module cpu(
 			clk,
 			rst,
@@ -78,19 +84,32 @@ logic        [DATA_SIZE-1:0] rs2_data;
 logic        [DATA_SIZE-1:0] imm_data;
 logic                        if_id_rst;
 logic                        id_exe_rst;
-logic        [        128:0] stage2_register_in;
-logic        [        128:0] stage2_register_out;
+logic        [        157:0] stage2_register_in;
+logic        [        157:0] stage2_register_out;
+logic        [DATA_SIZE-1:0] src1_data;
+logic        [DATA_SIZE-1:0] src2_data;
+logic        [DATA_SIZE-1:0] alu_rd_data;
+logic        [DATA_SIZE-1:0] alu_addr_data;
+logic        [DATA_SIZE-1:0] pc_jump_address;
+logic                        id_exe_rst_data;					
+logic                        if_id_rst_data;
+logic                        pc_jump_control;
+logic                        pc_stall;
+logic                        instruction_stall;
+logic        [        143:0] stage3_register_in;
+logic        [        143:0] stage3_register_out;
+
 
 
 
 always_comb
 begin
 	pc_controller ptl(
-						.pc,
+						.pc(pc_register_out),
 						.next_pc(next_pc),
 						.pc_jump_address,
 						.pc_jump_control,
-						.pc_stall,
+						.pc_stall(pc_stall),
 						.enable_jump,
 						
 						.pc_data(pc_data)
@@ -111,22 +130,24 @@ always_comb
 begin
 	next_pc=pc_register_out+32'd4;
 	im_addr=pc_register_out>>2;
-	pause_instruction_controller pic(
-								.instruction_stall(),
-								.instruction(im_dataout),
-								.instruction_data(instruction)
-								);
-	stage1_register_in={instruction,pc};
-	rst_controller if_id(
+
+	
+	if_id_rst_controller if_id(
 						.local_rst(),
 						.global_rst(rst),
 						.pc_jump_control(),
-						.pc_stall(),
 						.enable_jump(),
 						
 						.rst_data(if_id_rst)
 						);
-	
+	pause_instruction_controller pic(
+							.instruction_stall(instruction_stall),
+							.instruction(im_dataout),
+							.past_instruction(stage1_register_out[63:32]),
+							
+							.instruction_data(instruction)
+							);
+	stage1_register_in={instruction,pc};
 end
 
 always_ff@(posedge clk)
@@ -142,6 +163,7 @@ begin:if_id
 end
 always_comb
 begin
+
 	decoder dc(
 				.instruction(stage1_register_out[63:32]),
 				
@@ -199,14 +221,14 @@ begin
 						
 						.imm_data(imm_data)
 						);
-	rst_controller if_id(
+	id_exe_rst_controller(
 					.local_rst(),
 					.global_rst(rst),
 					.pc_jump_control(),
-					.pc_stall(),
+					.pc_stall(pc_stall),
 					.enable_jump(),
 					
-					.rst_data(id_if_rst)
+					.rst_data(id_exe_rst)
 					);
 	stage2_register_in={
 						wb_control,
@@ -216,25 +238,108 @@ begin
 						read_mem,
 						memin_low_byte,
 						memout_low_byte,
-						rs1_data,
-						rs2_data,
+						alu_pc_control,
+						alu_rd_control,
 						rs1_addr,
 						rs2_addr,
-						rd_addr,
-						alu_rd_control,
-						alu_pc_control,
-						imm_data
+						rd_addr,					
+						rs1_data,
+						rs2_data,
+						imm_data,
+						pc
 						}
 end
 always_ff@(posedge clk)
-begin
-	if(id_if_rst==1'b1)
+begin:id_exe
+	if(id_exe_rst==1'b1)
 	begin
-		stage2_register_out<=129'd0;
+		stage2_register_out<=158'd0;
 	end
 	else
 	begin
 		stage2_register_out<=stage2_register_in
+	end
+end
+always_comb
+begin
+	alu_in_selector ais(
+							.rs1_data(stage2_register_out[127:96]),
+							.rs2_data(stage2_register_out[95:64]),
+							.rs1_exe_hazard(),
+							.rs1_mem_hazard(),
+							.rs2_exe_hazard(),
+							.rs2_mem_hazard(),
+							.mem_data(),
+							.exe_data(),
+							
+							.src1_data(src1_data),
+							.src2_data(src2_data)
+							 
+							);	
+	alu_rd ard(
+				.src1(src1_data),
+				.src2(src2_data),
+				.imm_data(stage2_register_out[63:32]),
+				.pc(stage2_register_out[31:0]),
+				.alu_rd_control(stage2_register_out[147:143]),
+				
+				.alu_rd_data(alu_rd_data)
+				);
+				
+	alu_addr adr(
+				.src1(src1_data),
+				.imm_data(stage2_register_out[63:32]),
+				
+				.alu_addr_out(alu_addr_data)
+				);
+	alu_pc apc(
+					.alu_pc_control(stage2_register_out[150:148]),
+					.imm_data(stage2_register_out[63:32]),
+					.src1(src1_data),
+					.src2(src2_data),
+					.pc(stage2_register_out[31:0]),
+					
+					.pc_jump_address(pc_jump_address),
+					.id_exe_rst(id_exe_rst_data),
+					.if_id_rst(if_id_rst_data),
+					.pc_jump_control(pc_jump_control)
+					);
+	load_hazard lhd(
+					.if_id_rs1_addr(rs1_addr),
+					.if_id_rs2_addr(rs2_addr),
+					.id_exe_rd_addr(stage2_register_out[132:128]),
+					.id_exe_read_mem(stage2_register_out[153]),
+					
+					.pc_stall(pc_stall),
+					.instruction_stall(instruction_stall),
+					);
+	stage3_register_in={
+						stage2_register_out[157],
+						stage2_register_out[156],
+						stage2_register_out[155],
+						stage2_register_out[154],
+						stage2_register_out[153],
+						stage2_register_out[152],
+						stage2_register_out[151],
+						id_exe_rst_data,
+						if_id_rst_data,
+						pc_jump_control,
+						stage2_register_out[132:128],
+						alu_addr_data,
+						alu_rd_data,
+						src2_data,
+						pc_jump_address,
+						}
+end
+always_ff@(posedge clk)
+begin
+	if(rst==1'b1)
+	begin
+		stage3_register_out<=144'd0;
+	end
+	else
+	begin
+		stage3_register_out<=stage2_register_in;
 	end
 end
 

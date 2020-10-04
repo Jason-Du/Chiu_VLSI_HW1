@@ -1,3 +1,4 @@
+1601833274 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/if_id_rst_controller_rtl.sv
 1601793120 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/low_byte_control_write_data_rtl.sv
 1601381900 /home/khduh/Desktop/khduhVerilog/HW1/N260XXXXX/src/Register.sv
 1601806776 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/pc_controller_rtl.sv
@@ -5,6 +6,7 @@
 1601372713 /home/khduh/Desktop/khduhVerilog/HW1/N260XXXXX/src/ALU_control.sv
 1601739178 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/decoder_rtl.sv
 1601812947 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/control_rtl.sv
+1601833121 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/id_exe_rst_controller_rtl.sv
 1601812433 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/imm_extended_rtl.sv
 1601746348 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/alu_addr_rtl.sv
 1601738731 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/alu_in_selector_rtl.sv

@@ -21,11 +21,7 @@ input        [         19:0] imm_u_data;
 input        [          2:0] imm_extended_control;
 
 output logic [DATA_SIZE-1:0] imm_data;
-/*
-	input [3:0] in, output [7:0] out);
 
-    assign out = 8'(signed'(in));
-*/
 always_comb
 begin:extended_imm_block
 	case(imm_extended_control)

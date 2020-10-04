@@ -5,7 +5,7 @@
 -XLMODE
 ./INCA_libs/irun.lnx86.15.20.nc
 -RUNMODE
-load_hazard_rtl.sv
+if_id_rst_controller_rtl.sv
 -CDSLIB
 ./INCA_libs/irun.lnx86.15.20.nc/cdsrun.lib
 -HDLVAR
