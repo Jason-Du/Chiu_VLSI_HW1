@@ -13,3 +13,5 @@
 1601806776 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/pc_controller_rtl.sv
 1601806691 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/rst_controller_rtl.sv
 1601812947 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/control_rtl.sv
+1601818645 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/forwarding_unit_rtl.sv
+1601819821 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/load_hazard_rtl.sv

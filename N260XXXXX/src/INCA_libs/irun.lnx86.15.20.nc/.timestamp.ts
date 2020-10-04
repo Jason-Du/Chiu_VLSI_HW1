@@ -16,3 +16,5 @@
 1601743565 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test_rtl.sv
 1601728861 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/register_rtl.sv
 1601801052 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/alu_pc_rtl.sv
+1601818488 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/forwarding_unit_rtl.sv
+1601819821 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/load_hazard_rtl.sv

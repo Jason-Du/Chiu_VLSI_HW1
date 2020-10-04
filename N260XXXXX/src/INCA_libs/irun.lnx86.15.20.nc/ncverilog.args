@@ -2,5 +2,5 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-control_rtl.sv
+load_hazard_rtl.sv
 -c
