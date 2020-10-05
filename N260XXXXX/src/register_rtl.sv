@@ -40,10 +40,38 @@ always_ff@(posedge clk)
 begin:write_in_register
 	if (rst==1'b1)
 	begin
-		for (i=0; i<STP_REGSIZE; i= i+1)
-		begin
-				mreg[i]<=32'd0;
-		end
+		mreg[0]<=32'd0;
+		mreg[1]<=32'd0;
+		mreg[2]<=32'd0;
+		mreg[3]<=32'd0;
+		mreg[4]<=32'd0;
+		mreg[5]<=32'd0;
+		mreg[6]<=32'd0;
+		mreg[7]<=32'd0;
+		mreg[8]<=32'd0;
+		mreg[9]<=32'd0;
+		mreg[10]<=32'd0;
+		mreg[11]<=32'd0;
+		mreg[12]<=32'd0;
+		mreg[13]<=32'd0;
+		mreg[14]<=32'd0;
+		mreg[15]<=32'd0;
+		mreg[16]<=32'd0;
+		mreg[17]<=32'd0;
+		mreg[18]<=32'd0;
+		mreg[19]<=32'd0;
+		mreg[20]<=32'd0;
+		mreg[21]<=32'd0;
+		mreg[22]<=32'd0;
+		mreg[23]<=32'd0;
+		mreg[24]<=32'd0;
+		mreg[25]<=32'd0;
+		mreg[26]<=32'd0;
+		mreg[27]<=32'd0;
+		mreg[28]<=32'd0;
+		mreg[29]<=32'd0;
+		mreg[30]<=32'd0;
+		mreg[31]<=32'd0;
 	end
 	
 	else
@@ -65,7 +93,7 @@ begin:write_in_register
 
 end
 
-always_ff@(negedge clk)
+always_comb
 begin:read_register_data
 	if (rst==1'b1)
 	begin

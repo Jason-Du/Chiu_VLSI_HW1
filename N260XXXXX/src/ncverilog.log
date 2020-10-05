@@ -1,25 +1,33 @@
 ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Oct 05, 2020 at 01:41:18 CST
+TOOL:	ncverilog	15.20-s039: Started on Oct 05, 2020 at 19:18:05 CST
 ncverilog
-	if_id_rst_controller_rtl.sv
+	cpu_rtl.sv
 	-c
-file: if_id_rst_controller_rtl.sv
-	module worklib.id_exe_rst_controller:sv
+Recompiling... reason: file './cpu_rtl.sv' is newer than expected.
+	expected: Mon Oct  5 19:17:04 2020
+	actual:   Mon Oct  5 19:18:01 2020
+file: cpu_rtl.sv
+	module worklib.cpu:sv
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
 ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+							.write_data(dm_datain),
+							                    |
+ncelab: *W,CUVMPW (./cpu_rtl.sv,405|27): port sizes differ in port connection (14/32).
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.id_exe_rst_controller:sv <0x6bc2f144>
+		worklib.cpu:sv <0x69e60dcd>
 			streams:   0, words:     0
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                  Instances  Unique
-		Modules:                  1       1
-		Registers:                1       1
-		Always blocks:            1       1
+		Modules:                 19      19
+		Registers:              122     122
+		Scalar wires:            42       -
+		Vectored wires:          77       -
+		Always blocks:           29      29
 		Simulation timescale:  10ps
-	Writing initial simulation snapshot: worklib.id_exe_rst_controller:sv
-TOOL:	ncverilog	15.20-s039: Exiting on Oct 05, 2020 at 01:41:18 CST  (total: 00:00:00)
+	Writing initial simulation snapshot: worklib.cpu:sv
+TOOL:	ncverilog	15.20-s039: Exiting on Oct 05, 2020 at 19:18:05 CST  (total: 00:00:00)

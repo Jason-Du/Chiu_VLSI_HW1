@@ -12,11 +12,11 @@
   output logic [DATA_SIZE-1:0] instruction_data;
   
   input        [DATA_SIZE-1:0] instruction;
-  input        [DATA_SIZE-1:0] past_instruction,
+  input        [DATA_SIZE-1:0] past_instruction;
   input                        instruction_stall;
   
   always_comb
   begin
-	instruction_data=instruction_stall?past_instruction:instruction
+	instruction_data=instruction_stall?past_instruction:instruction;
   end
   endmodule

@@ -1,6 +1,6 @@
 `timescale 1ns/10ps
 
-module id_exe_rst_controller(
+module if_id_rst_controller(
 						local_rst,
 						global_rst,
 						pc_jump_control,
@@ -10,10 +10,10 @@ module id_exe_rst_controller(
 						);
 output logic rst_data;
 
-input        pc_jump_control;
-input        local_rst;
-input        global_rst;
-input        enable_jump;
+input  logic pc_jump_control;
+input  logic local_rst;
+input  logic global_rst;
+input  logic enable_jump;
 
 always_comb
 begin

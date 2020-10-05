@@ -2,5 +2,5 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-if_id_rst_controller_rtl.sv
+cpu_rtl.sv
 -c
