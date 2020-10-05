@@ -18,6 +18,6 @@ input                        wb_control;
 
 always_comb
 begin
-	wb_data=(wb_control)?alu_rd_data:read_mem_data;
+	wb_data=(wb_control)?read_mem_data:alu_rd_data;
 end
 endmodule

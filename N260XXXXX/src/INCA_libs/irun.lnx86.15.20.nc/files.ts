@@ -1,5 +1,5 @@
 1601827870 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/decoder_rtl.sv
-1601895351 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/register_rtl.sv
+1601915667 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/register_rtl.sv
 1601892478 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test_rtl.sv
 1601743735 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test_tb.sv
 1601828358 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/imm_extended_rtl.sv
@@ -9,11 +9,12 @@
 1601801052 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/alu_pc_rtl.sv
 1601793120 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/low_byte_control_write_data_rtl.sv
 1601793325 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/low_byte_control_read_data_rtl.sv
-1601793751 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/wb_controller_rtl.sv
+1601906564 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/wb_controller_rtl.sv
 1601893880 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/pc_controller_rtl.sv
-1601812947 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/control_rtl.sv
+1601906562 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/control_rtl.sv
 1601818645 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/forwarding_unit_rtl.sv
 1601819821 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/load_hazard_rtl.sv
 1601833121 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/id_exe_rst_controller_rtl.sv
 1601893093 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/if_id_rst_controller_rtl.sv
-1601896681 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/cpu_rtl.sv
+1601913427 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/cpu_rtl.sv
+1601910758 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/top.sv

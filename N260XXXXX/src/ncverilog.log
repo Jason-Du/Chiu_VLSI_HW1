@@ -1,33 +1,55 @@
 ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Oct 05, 2020 at 19:18:05 CST
+TOOL:	ncverilog	15.20-s039: Started on Oct 06, 2020 at 00:34:58 CST
 ncverilog
-	cpu_rtl.sv
+	top.sv
 	-c
-Recompiling... reason: file './cpu_rtl.sv' is newer than expected.
-	expected: Mon Oct  5 19:17:04 2020
-	actual:   Mon Oct  5 19:18:01 2020
-file: cpu_rtl.sv
+file: top.sv
+	module worklib.pc_controller:sv
+		errors: 0, warnings: 0
+	module worklib.pause_instruction_controller:sv
+		errors: 0, warnings: 0
+	module worklib.decoder:sv
+		errors: 0, warnings: 0
+	module worklib.control:sv
+		errors: 0, warnings: 0
+	module worklib.register:sv
+		errors: 0, warnings: 0
+	module worklib.imm_extended:sv
+		errors: 0, warnings: 0
+	module worklib.if_id_rst_controller:sv
+		errors: 0, warnings: 0
+	module worklib.id_exe_rst_controller:sv
+		errors: 0, warnings: 0
+	module worklib.alu_rd:sv
+		errors: 0, warnings: 0
+	module worklib.alu_in_selector:sv
+		errors: 0, warnings: 0
+	module worklib.alu_addr:sv
+		errors: 0, warnings: 0
+	module worklib.alu_pc:sv
+		errors: 0, warnings: 0
+	module worklib.load_hazard:sv
+		errors: 0, warnings: 0
+	module worklib.divider4:sv
+		errors: 0, warnings: 0
+	module worklib.low_byte_control_write_data:sv
+		errors: 0, warnings: 0
+	module worklib.low_byte_control_read_data:sv
+		errors: 0, warnings: 0
+	module worklib.wb_controller:sv
+		errors: 0, warnings: 0
+	module worklib.forwarding_unit:sv
+		errors: 0, warnings: 0
 	module worklib.cpu:sv
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
-ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
-							.write_data(dm_datain),
-							                    |
-ncelab: *W,CUVMPW (./cpu_rtl.sv,405|27): port sizes differ in port connection (14/32).
-	Building instance overlay tables: .................... Done
-	Generating native compiled code:
-		worklib.cpu:sv <0x69e60dcd>
-			streams:   0, words:     0
-	Building instance specific data structures.
-	Loading native compiled code:     .................... Done
-	Design hierarchy summary:
-		                  Instances  Unique
-		Modules:                 19      19
-		Registers:              122     122
-		Scalar wires:            42       -
-		Vectored wires:          77       -
-		Always blocks:           29      29
-		Simulation timescale:  10ps
-	Writing initial simulation snapshot: worklib.cpu:sv
-TOOL:	ncverilog	15.20-s039: Exiting on Oct 05, 2020 at 19:18:05 CST  (total: 00:00:00)
+		Caching library 'worklib' ....... Done
+  SRAM i_SRAM (
+            |
+ncelab: *E,CUVMUR (./SRAM_wrapper.sv,11|12): instance 'top.IM1@SRAM_wrapper<module>.i_SRAM' of design unit 'SRAM' is unresolved in 'worklib.SRAM_wrapper:sv'.
+  SRAM i_SRAM (
+            |
+ncelab: *E,CUVMUR (./SRAM_wrapper.sv,11|12): instance 'top.DM1@SRAM_wrapper<module>.i_SRAM' of design unit 'SRAM' is unresolved in 'worklib.SRAM_wrapper:sv'.
+ncverilog: *E,ELBERR: Error during elaboration (status 1), exiting.
+TOOL:	ncverilog	15.20-s039: Exiting on Oct 06, 2020 at 00:34:58 CST  (total: 00:00:00)

@@ -106,6 +106,7 @@ module top_tb;
     result(num, num);
     $finish;
   end
+
   
   task result;
     input integer err;

@@ -34,9 +34,7 @@ output logic [DATA_SIZE-1:0] rs2_data;
 
 logic        [DATA_SIZE-1:0] mreg [STP_REGSIZE-1:0];
 
-integer                      i;
-
-always_ff@(posedge clk)
+always_ff@(negedge clk)
 begin:write_in_register
 	if (rst==1'b1)
 	begin
@@ -93,7 +91,7 @@ begin:write_in_register
 
 end
 
-always_comb
+always_ff@(negedge clk)
 begin:read_register_data
 	if (rst==1'b1)
 	begin
@@ -102,15 +100,23 @@ begin:read_register_data
 	end
 	else
 	begin
-		if (read_reg==1'b1)
+		if(write_data==1'b1)
 		begin
-			rs1_data<=mreg[rs1_addr];
-			rs2_data<=mreg[rs2_addr];
+			rs1_data<=32'd0;
+			rs2_data<=32'd0;	
 		end
 		else
 		begin
-			rs1_data<=rs1_data;
-			rs2_data<=rs2_data;
+			if (read_reg==1'b1)
+			begin
+				rs1_data<=mreg[rs1_addr];
+				rs2_data<=mreg[rs2_addr];
+			end
+			else
+			begin
+				rs1_data<=rs1_data;
+				rs2_data<=rs2_data;
+			end
 		end
 	end
 end

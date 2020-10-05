@@ -33,7 +33,7 @@ module cpu(
 			dm_oe,
 			dm_web,
 			dm_addr,
-			dm_datain,
+			dm_datain
 				);
  
 parameter DATA_SIZE  =32;
@@ -48,13 +48,13 @@ input        [DATA_SIZE-1:0] dm_dataout;
 output logic                 im_cs;
 output logic                 im_oe;
 output logic [          3:0] im_web;
-output logic [DATA_SIZE-1:0] im_addr;
-output logic [         13:0] im_datain;
+output logic [         13:0] im_addr;
+output logic [DATA_SIZE-1:0] im_datain;
 output logic                 dm_cs;
 output logic                 dm_oe;
 output logic [          3:0] dm_web;
-output logic [DATA_SIZE-1:0] dm_addr;
-output logic [         13:0] dm_datain;
+output logic [         13:0] dm_addr;
+output logic [DATA_SIZE-1:0] dm_datain;
 
 logic        [DATA_SIZE-1:0] pc_data;
 logic        [DATA_SIZE-1:0] next_pc;
@@ -113,7 +113,11 @@ logic        [         37:0] stage4_register_out;
 logic                        rs1_exe_hazard;
 logic                        rs1_mem_hazard;
 logic                        rs2_exe_hazard;
-logic                        rs2_mem_hazard;	
+logic                        rs2_mem_hazard;
+
+//DEBUG
+
+
 
 
 
@@ -129,7 +133,7 @@ pc_controller ptl(.pc(pc_register_out),
 				  .pc_data(pc_data)
 					);
 
-always_ff@(negedge clk)
+always_ff@(posedge clk)
 begin:pc_id
 	if (rst==1'b1)
 	begin
@@ -143,7 +147,7 @@ end
 always_comb
 begin:if_comb
 	next_pc=pc_register_out+32'd4;
-	im_addr=pc_register_out>>2;
+	im_addr=pc_register_out[13:0]>>2;
 	im_cs=1'b1;
 	im_oe=1'b1;
 	im_web=4'b1111;
@@ -167,9 +171,7 @@ pause_instruction_controller pic(
 						
 						.instruction_data(instruction)
 						);
-
-
-always_ff@(negedge clk)
+always_ff@(posedge clk)
 begin:if_id
 	if(if_id_rst==1'b1)
 	begin
@@ -242,7 +244,7 @@ register rigt(
 			.rst(rst),
 			.read_reg(read_reg),
 			.write_reg(write_reg),
-			.write_data(),
+			.write_data(stage4_register_out[31:0]),
 			
 			
 			.rs1_data(rs1_data),
@@ -268,7 +270,7 @@ id_exe_rst_controller idexerst(
 				.rst_data(id_exe_rst)
 				);
 
-always_ff@(negedge clk)
+always_ff@(posedge clk)
 begin:id_exe
 	if(id_exe_rst==1'b1)
 	begin
@@ -366,15 +368,15 @@ forwarding_unit fwu(
 					);
 
 
-always_ff@(negedge clk)
+always_ff@(posedge clk)
 begin:exe_mem
 	if(rst==1'b1)
 	begin
-		stage3_register_out<=144'd0;
+		stage3_register_out<=143'd0;
 	end
 	else
 	begin
-		stage3_register_out<=stage2_register_in;
+		stage3_register_out<=stage3_register_in;
 	end
 end
 
@@ -424,7 +426,7 @@ wb_controller wbc(
 
 
 
-always_ff@(negedge clk)
+always_ff@(posedge clk)
 begin
 	if(rst==1'b1)
 	begin

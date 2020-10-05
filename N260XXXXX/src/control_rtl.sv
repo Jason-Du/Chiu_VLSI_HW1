@@ -45,7 +45,7 @@ begin
 			write_reg       = 1'b1;
 			memin_low_byte  = 1'b0;
 			memout_low_byte = 1'b0;
-			wb_control      = 1'b1;
+			wb_control      = 1'b0;
 			write_mem       = 1'b0;
 			read_mem        = 1'b0;
 			enable_jump     = 1'b0;
@@ -101,7 +101,7 @@ begin
 			write_reg       = 1'b1;
 			memin_low_byte  = 1'b0;
 			//memout_low_byte = 1'b0;
-			wb_control      = 1'b0;
+			wb_control      = 1'b1;
 			write_mem       = 1'b0;
 			read_mem        = 1'b1;
 			alu_rd_control  = 5'd0;
@@ -118,7 +118,7 @@ begin
 			enable_jump     = 1'b0;
 			memin_low_byte  = 1'b0;
 			memout_low_byte = 1'b0;
-			wb_control      = 1'b1;
+			wb_control      = 1'b0;
 			write_mem       = 1'b0;
 			read_mem        = 1'b0;
 			//alu_rd_control  = 5'd0;
@@ -256,7 +256,7 @@ begin
 			enable_jump     = 1'b0;
 			memin_low_byte  = 1'b0;
 			memout_low_byte = 1'b0;
-			wb_control      = 1'b1;
+			wb_control      = 1'b0;
 			write_mem       = 1'b0;
 			read_mem        = 1'b0;
 			alu_rd_control  = 5'd20;
@@ -271,7 +271,7 @@ begin
 			enable_jump     = 1'b0;
 			memin_low_byte  = 1'b0;
 			memout_low_byte = 1'b0;
-			wb_control      = 1'b1;
+			wb_control      = 1'b0;
 			write_mem       = 1'b0;
 			read_mem        = 1'b0;
 			alu_rd_control  = 5'd21;
@@ -286,7 +286,7 @@ begin
 			enable_jump     = 1'b1;
 			memin_low_byte  = 1'b0;
 			memout_low_byte = 1'b0;
-			wb_control      = 1'b1;
+			wb_control      = 1'b0;
 			write_mem       = 1'b0;
 			read_mem        = 1'b0;
 			alu_rd_control  = 5'd22;
