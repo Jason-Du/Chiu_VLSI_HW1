@@ -241,11 +241,11 @@ control cl(
 register rigt(
 			.rs1_addr(rs1_addr),
 			.rs2_addr(rs2_addr),
-			.rd_addr(rd_addr),
+			.rd_addr(stage4_register_out[36:32]),
 			.clk(clk),
 			.rst(rst),
 			.read_reg(read_reg),
-			.write_reg(write_reg),
+			.write_reg(stage4_register_out[37]),
 			.write_data(stage4_register_out[31:0]),
 			
 			

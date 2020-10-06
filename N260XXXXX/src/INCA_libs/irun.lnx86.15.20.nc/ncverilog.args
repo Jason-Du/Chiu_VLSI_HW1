@@ -2,5 +2,5 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-top.sv
+register_rtl.sv
 -c

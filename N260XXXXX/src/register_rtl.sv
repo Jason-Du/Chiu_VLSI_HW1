@@ -100,24 +100,8 @@ begin:read_register_data
 	end
 	else
 	begin
-		if(write_data==1'b1)
-		begin
-			rs1_data<=32'd0;
-			rs2_data<=32'd0;	
-		end
-		else
-		begin
-			if (read_reg==1'b1)
-			begin
-				rs1_data<=mreg[rs1_addr];
-				rs2_data<=mreg[rs2_addr];
-			end
-			else
-			begin
-				rs1_data<=rs1_data;
-				rs2_data<=rs2_data;
-			end
-		end
+		rs1_data<=mreg[rs1_addr];
+		rs2_data<=mreg[rs2_addr];		
 	end
 end
 
