@@ -7,6 +7,7 @@
 `include "imm_extended_rtl.sv"
 `include "if_id_rst_controller_rtl.sv"
 `include "id_exe_rst_controller_rtl.sv"
+`include "exe_mem_rst_controller_rtl.sv"
 `include "alu_rd_rtl.sv"
 `include "alu_in_selector_rtl.sv"
 `include "alu_addr_rtl.sv"
@@ -114,6 +115,7 @@ logic                        rs1_exe_hazard;
 logic                        rs1_mem_hazard;
 logic                        rs2_exe_hazard;
 logic                        rs2_mem_hazard;
+logic                        exe_mem_rst;
 
 //DEBUG
 
@@ -238,7 +240,7 @@ control cl(
 				);
 register rigt(
 			.rs1_addr(rs1_addr),
-			.rs2_addr(rs1_addr),
+			.rs2_addr(rs2_addr),
 			.rd_addr(rd_addr),
 			.clk(clk),
 			.rst(rst),
@@ -338,6 +340,7 @@ alu_pc apc(
 				.src1(src1_data),
 				.src2(src2_data),
 				.pc(stage2_register_out[31:0]),
+				.enable_jump(stage2_register_out[156]),
 				
 				.pc_jump_address(pc_jump_address),
 				.id_exe_rst(id_exe_rst_data),
@@ -366,11 +369,19 @@ forwarding_unit fwu(
 					.rs2_exe_hazard(rs2_exe_hazard),
 					.rs2_mem_hazard(rs2_mem_hazard)
 					);
-
+					
+exe_mem_rst_controller exememrst(
+					.local_rst(stage3_register_out[134]),
+					.global_rst(rst),
+					.pc_jump_control(stage3_register_out[133]),
+					.enable_jump(stage3_register_out[141]),
+					
+					.rst_data(exe_mem_rst)
+					);
 
 always_ff@(posedge clk)
 begin:exe_mem
-	if(rst==1'b1)
+	if(exe_mem_rst==1'b1)
 	begin
 		stage3_register_out<=143'd0;
 	end
