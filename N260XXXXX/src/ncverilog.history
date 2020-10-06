@@ -248,3 +248,6 @@ s247(06Oct2020:18:23:22):  ncverilog alu_pc_rtl.sv -c
 s248(06Oct2020:18:23:26):  ncverilog top.sv -c 
 s249(06Oct2020:18:36:49):  ncverilog alu_pc_rtl.sv -c 
 s250(06Oct2020:19:37:15):  ncverilog imm_extended_rtl.sv -c 
+s251(06Oct2020:19:48:27):  ncverilog decoder_rtl.sv -c 
+s252(06Oct2020:19:48:32):  ncverilog cpu_rtl.sv -c 
+s253(06Oct2020:19:48:35):  ncverilog top.sv -c 

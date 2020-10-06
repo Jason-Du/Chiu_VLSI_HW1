@@ -36,7 +36,7 @@ always_comb
 begin:decoding_comb
 	imm_i_data=instruction[31:20];
 	imm_s_data={instruction[31:25],instruction[11:7]};
-	imm_b_data={instruction[12],instruction[7],instruction[30:25],instruction[11:8]};
+	imm_b_data={instruction[31],instruction[7],instruction[30:25],instruction[11:8]};
 	imm_u_data=instruction[31:12];
 	imm_j_data={instruction[31],instruction[19:12],instruction[20],instruction[30:21]};
 	rs1_addr  =instruction[19:15];

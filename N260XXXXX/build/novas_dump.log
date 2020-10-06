@@ -107,9 +107,9 @@ argv[7]=MAX=100000
 argv[8]=+access+r
 argv[9]=+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog0
 108 profile - 100
-          CPU/Mem usage: 0.040 sys,  0.010 user,  61.92M sys,  0.00M vm
+          CPU/Mem usage: 0.030 sys,  0.020 user,  61.90M sys,  0.00M vm
 109 VC callback profile - scalar:0 vector:0
-110 Tue Oct  6 19:37:22 2020
+110 Tue Oct  6 19:48:40 2020
 111 pliAppInit
 112 FSDB_GATE is disabled.
 113 Enable Parallel Dumping.
@@ -118,7 +118,7 @@ argv[9]=+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./si
 116 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
 117 argv[0]: top.fsdb
 118 argv[0]: 0
-119 argv[1]: (handle)0xb4a6058 top_tb.TOP
+119 argv[1]: (handle)0xbde3008 top_tb.TOP
 120 FSDB Dumper for IUS, Release Verdi_P-2019.06, Linux, 05/26/2019
 121 (C) 1996 - 2019 by Synopsys, Inc.
 122 sps_call_fsdbDumpfile at 0 : /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv(86)
@@ -127,25 +127,25 @@ argv[9]=+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./si
 125 *Verdi* : Create FSDB file 'top.fsdb'
 126 sps_call_fsdbDumpvars at 0 : /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv(87)
 127 argv[0]: 0
-128 argv[1]: (handle)0xb4a6050 top_tb.TOP
+128 argv[1]: (handle)0xbde3000 top_tb.TOP
 129 *Verdi* : Begin traversing the scope (top_tb.TOP), layer (0).
 130 *Verdi* : End of traversing.
 131 fsdbDumpvars traverse var: profile - 
-          CPU/Mem usage: 0.050 sys,  0.020 user,  144.47M sys,  0.00M vm
-                   incr: 0.000 sys,  0.000 user,  3.69M sys,  0.00M vm
-                   accu: 0.000 sys,  0.000 user,  3.69M sys,  0.00M vm
-              accu incr: 0.000 sys,  0.000 user,  3.69M sys,  0.00M vm
+          CPU/Mem usage: 0.040 sys,  0.030 user,  144.47M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  3.69M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  3.69M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  3.69M sys,  0.00M vm
 
           Count usage: 570 var,  368 idcode,  368 callback
                  incr: 570 var,  368 idcode,  368 callback
                  accu: 570 var,  368 idcode,  368 callback
             accu incr: 570 var,  368 idcode,  368 callback
 132 VC callback profile - scalar:0 vector:0
-133 Tue Oct  6 19:37:22 2020
+133 Tue Oct  6 19:48:40 2020
 134 fsdbDumpvars: profile - 
-          CPU/Mem usage: 0.050 sys,  0.020 user,  145.52M sys,  0.00M vm
+          CPU/Mem usage: 0.040 sys,  0.030 user,  145.52M sys,  0.00M vm
                    incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
-                   accu: 0.000 sys,  0.000 user,  4.74M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  4.74M sys,  0.00M vm
               accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
 
           Count usage: 570 var,  368 idcode,  368 callback
@@ -153,16 +153,16 @@ argv[9]=+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./si
                  accu: 570 var,  368 idcode,  368 callback
             accu incr: 0 var,  0 idcode,  0 callback
 135 VC callback profile - scalar:237 vector:131
-136 Tue Oct  6 19:37:22 2020
+136 Tue Oct  6 19:48:40 2020
 137 End of simulation at 100000000
-138 VC callback profile - scalar:674714 vector:1655278
-139 Tue Oct  6 19:37:22 2020
+138 VC callback profile - scalar:3266326 vector:7719221
+139 Tue Oct  6 19:48:42 2020
 140 Begin FSDB profile info:
-141 FSDB Writer : bc1(674714) bcn(1655278) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.170810) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+141 FSDB Writer : bc1(3266326) bcn(7719221) mtf/stf(0/2)
+FSDB Writer elapsed time : flush(0.918794) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
 FSDB Writer cpu time : MT Compression : 0
 142 End FSDB profile info
-143 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:15 BlockUsed:19
-144                        ProduceTime:0.523104649 ConsumerTime:0.251823931 Buffer:64MB
+143 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:29 BlockUsed:67
+144                        ProduceTime:1.243869262 ConsumerTime:1.820331021 Buffer:64MB
 145 SimExit
 146 Sim process exit

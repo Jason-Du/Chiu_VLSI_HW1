@@ -1,4 +1,4 @@
-1601827870 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/decoder_rtl.sv
+1601984892 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/decoder_rtl.sv
 1601915667 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/register_rtl.sv
 1601892478 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test_rtl.sv
 1601743735 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test_tb.sv
