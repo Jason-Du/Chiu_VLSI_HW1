@@ -1,0 +1,439 @@
+*design* DebussyLib (btIdent Verdi_P-2019.06)
+Command arguments:
+    +define+verilog
+    /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv
+
+
+*Error* `include file "top.sv" cannot be read
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 10: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 32: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 33: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 34: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 35: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 37: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 38: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 39: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 40: 
+
+*Error* Syntax error at @
+"SRAM/SRAM_rtl.sv", 122: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 128: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 129: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 130: 
+
+*Error* Syntax error at else
+"SRAM/SRAM_rtl.sv", 131: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 133: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 134: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 137: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 138: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 139: 
+
+*Error* Syntax error at else
+"SRAM/SRAM_rtl.sv", 140: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 142: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 143: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 146: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 147: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 148: 
+
+*Error* Syntax error at else
+"SRAM/SRAM_rtl.sv", 149: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 151: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 152: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 155: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 156: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 157: 
+
+*Error* Syntax error at else
+"SRAM/SRAM_rtl.sv", 158: 
+
+*Error* Syntax error at [
+"SRAM/SRAM_rtl.sv", 160: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 161: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 162: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 163: 
+
+*Error* Syntax error at begin
+"SRAM/SRAM_rtl.sv", 166: 
+
+*Error* Syntax error at =
+"SRAM/SRAM_rtl.sv", 167: 
+
+*Error* Syntax error at end
+"SRAM/SRAM_rtl.sv", 168: 
+
+*Error* Syntax error at ;
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 24: 
+
+*Error* Syntax error at ;
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 25: 
+
+*Error* Syntax error at [
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 26: 
+
+*Error* Syntax error at ;
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 29: 
+
+*Error* Syntax error at ++
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 55: 
+
+*Error* Syntax error at ++
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 63: 
+
+*Error* Syntax error at ++
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 93: 
+
+*Error* clk is referenced before declaration
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 30: 
+
+*Error* clk is referenced before declaration
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 30: 
+
+*Error* illegal LHS in procedural assignment
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 40: 
+
+*Error* illegal LHS in procedural assignment
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 40: 
+
+*Error* illegal LHS in procedural assignment
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 41: 
+
+*Error* missing step assignment in for assignment
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 63: 
+
+*Error* missing step assignment in for assignment
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 93: 
+
+*Error* illegal LHS in procedural assignment
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 30: 
+Highest level modules:
+SRAM
+top_tb
+
+
+*Error* failed to find identifier DO[0]
+"SRAM/SRAM_rtl.sv", 41: 
+
+*Error* failed to find identifier DO[1]
+"SRAM/SRAM_rtl.sv", 42: 
+
+*Error* failed to find identifier DO[2]
+"SRAM/SRAM_rtl.sv", 43: 
+
+*Error* failed to find identifier DO[3]
+"SRAM/SRAM_rtl.sv", 44: 
+
+*Error* failed to find identifier DO[4]
+"SRAM/SRAM_rtl.sv", 45: 
+
+*Error* failed to find identifier DO[5]
+"SRAM/SRAM_rtl.sv", 46: 
+
+*Error* failed to find identifier DO[6]
+"SRAM/SRAM_rtl.sv", 47: 
+
+*Error* failed to find identifier DO[7]
+"SRAM/SRAM_rtl.sv", 48: 
+
+*Error* failed to find identifier DO[8]
+"SRAM/SRAM_rtl.sv", 49: 
+
+*Error* failed to find identifier DO[9]
+"SRAM/SRAM_rtl.sv", 50: 
+
+*Error* failed to find identifier DO[10]
+"SRAM/SRAM_rtl.sv", 51: 
+
+*Error* failed to find identifier DO[11]
+"SRAM/SRAM_rtl.sv", 52: 
+
+*Error* failed to find identifier DO[12]
+"SRAM/SRAM_rtl.sv", 53: 
+
+*Error* failed to find identifier DO[13]
+"SRAM/SRAM_rtl.sv", 54: 
+
+*Error* failed to find identifier DO[14]
+"SRAM/SRAM_rtl.sv", 55: 
+
+*Error* failed to find identifier DO[15]
+"SRAM/SRAM_rtl.sv", 56: 
+
+*Error* failed to find identifier DO[16]
+"SRAM/SRAM_rtl.sv", 57: 
+
+*Error* failed to find identifier DO[17]
+"SRAM/SRAM_rtl.sv", 58: 
+
+*Error* failed to find identifier DO[18]
+"SRAM/SRAM_rtl.sv", 59: 
+
+*Error* failed to find identifier DO[19]
+"SRAM/SRAM_rtl.sv", 60: 
+
+*Error* failed to find identifier DO[20]
+"SRAM/SRAM_rtl.sv", 61: 
+
+*Error* failed to find identifier DO[21]
+"SRAM/SRAM_rtl.sv", 62: 
+
+*Error* failed to find identifier DO[22]
+"SRAM/SRAM_rtl.sv", 63: 
+
+*Error* failed to find identifier DO[23]
+"SRAM/SRAM_rtl.sv", 64: 
+
+*Error* failed to find identifier DO[24]
+"SRAM/SRAM_rtl.sv", 65: 
+
+*Error* failed to find identifier DO[25]
+"SRAM/SRAM_rtl.sv", 66: 
+
+*Error* failed to find identifier DO[26]
+"SRAM/SRAM_rtl.sv", 67: 
+
+*Error* failed to find identifier DO[27]
+"SRAM/SRAM_rtl.sv", 68: 
+
+*Error* failed to find identifier DO[28]
+"SRAM/SRAM_rtl.sv", 69: 
+
+*Error* failed to find identifier DO[29]
+"SRAM/SRAM_rtl.sv", 70: 
+
+*Error* failed to find identifier DO[30]
+"SRAM/SRAM_rtl.sv", 71: 
+
+*Error* failed to find identifier DO[31]
+"SRAM/SRAM_rtl.sv", 72: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 39: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 42: 
+
+*Error* failed to find identifier TOP.IM1.i_SRAM.Memory_byte0
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 42: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 43: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte0
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 43: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 44: 
+
+*Error* failed to find identifier TOP.IM1.i_SRAM.Memory_byte1
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 44: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 45: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte1
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 45: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 46: 
+
+*Error* failed to find identifier TOP.IM1.i_SRAM.Memory_byte2
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 46: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 47: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte2
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 47: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 48: 
+
+*Error* failed to find identifier TOP.IM1.i_SRAM.Memory_byte3
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 48: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 49: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte3
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 49: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 51: 
+
+*Error* failed to find identifier GOLDEN[num]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 54: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte3['h3fff]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 59: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte2['h3fff]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 59: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte1['h3fff]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 59: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte0['h3fff]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 59: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte3[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 65: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte2[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 65: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte1[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 65: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte0[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 65: 
+
+*Error* failed to find identifier GOLDEN[i]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 65: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte3[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 67: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte2[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 67: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte1[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 67: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte0[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 67: 
+
+*Error* failed to find identifier GOLDEN[i]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 67: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte3[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 72: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte2[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 72: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte1[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 72: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte0[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 72: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte3[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 95: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte2[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 95: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte1[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 95: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte0[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 95: 
+
+*Error* failed to find identifier GOLDEN[i]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 95: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte3[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 97: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte2[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 97: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte1[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 97: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte0[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 97: 
+
+*Error* failed to find identifier GOLDEN[i]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 97: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte3[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 102: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte2[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 102: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte1[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 102: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte0[('h2000 + i)]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 102: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte3['h3fff]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 105: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte2['h3fff]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 105: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte1['h3fff]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 105: 
+
+*Error* failed to find identifier TOP.DM1.i_SRAM.Memory_byte0['h3fff]
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 105: 
+
+*Error* failed to find identifier prog_path
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 119: 
+
+*Error* view top is not defined for instance TOP
+"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv", 32: 
+Total	143 error(s),   0 warning(s)

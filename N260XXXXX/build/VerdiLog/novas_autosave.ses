@@ -1,0 +1,60 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_P-2019.06
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[hb]
+viewport = 0 20 1920 977 0 0 429 898
+activeNode = "top_tb.result"
+activeScope = "top_tb.result"
+activeFile = "/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 110
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "top_tb.result"
+Scope2 = "top_tb"
+Scope3 = "SRAM"
+multipleSelection = 1 110 3 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv" 
+workPath = /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim
+invokeDir = /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/build
+[hb.sourceTab.1]
+scope = top_tb.result
+File = /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/sim/top_tb.sv
+Line = 111

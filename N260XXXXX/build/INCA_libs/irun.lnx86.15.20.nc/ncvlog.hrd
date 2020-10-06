@@ -1,0 +1,18 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-INCDIR
+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./src
+-INCDIR
+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./include
+-INCDIR
+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim
+-DEFINE
+prog0
+-DEFINE
+FSDB
+-DEFINE
+CYCLE=10.0
+-DEFINE
+MAX=100000
