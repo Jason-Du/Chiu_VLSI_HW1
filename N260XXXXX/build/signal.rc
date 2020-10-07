@@ -1,0 +1,140 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -1 27 1920 977 347 78
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/build/top.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 7653536.132812 7677950.195312
+cursor 7667500.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+userMarker 7663500 JUMP_I ID_RED5 line_solid
+userMarker 7667500 JUMPADDRESS ID_RED5 line_solid
+userMarker 7268500 START ID_ORANGE5 line_solid
+userMarker 7265500 M3 ID_RED5 line_solid
+userMarker 6065500 M2 ID_RED5 line_solid
+userMarker 67500 M1 ID_RED5 line_solid
+
+; visible top row signal index
+top 0
+; marker line index
+markerPos 10
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/build/top.fsdb"
+addSignal -h 15 /top_tb/TOP/clk
+addSignal -h 15 /top_tb/TOP/IM1/A[13:0]
+addSignal -h 15 /top_tb/TOP/core/pc_register_out[31:0]
+addSignal -h 15 -UNSIGNED -HEX /top_tb/TOP/IM1/DO[31:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 -holdScope BLANK
+addSignal -h 15 -UNSIGNED -HEX /top_tb/TOP/core/rigt/mreg[6][31:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 -holdScope BLANK
+addSignal -h 15 -holdScope BLANK
+addSignal -h 15 /top_tb/TOP/core/ptl/enable_jump
+addSignal -h 15 -holdScope pc_data[31:0]
+addSignal -h 15 -holdScope pc_jump_address[31:0]
+addSignal -h 15 -holdScope pc_jump_control
+addGroup "G2"
+addGroup "G3"
+addSignal -h 15 /top_tb/TOP/core/apc/alu_pc_control[2:0]
+addSignal -h 15 -holdScope enable_jump
+addSignal -h 15 -holdScope id_exe_rst
+addSignal -h 15 -holdScope if_id_rst
+addSignal -h 15 -holdScope imm_data[31:0]
+addSignal -h 15 -holdScope pc[31:0]
+addSignal -h 15 -holdScope pc_jump_address[31:0]
+addSignal -h 15 -holdScope pc_jump_address_overflow[31:0]
+addSignal -h 15 -holdScope pc_jump_control
+addSignal -h 15 -holdScope src1[31:0]
+addSignal -h 15 -holdScope src2[31:0]
+addGroup "G4"
+addSignal -h 15 /top_tb/TOP/core/rigt/mreg[31][31:0]
+addSignal -h 15 -holdScope mreg[30][31:0]
+addSignal -h 15 -holdScope mreg[29][31:0]
+addSignal -h 15 -holdScope mreg[28][31:0]
+addSignal -h 15 -holdScope mreg[27][31:0]
+addSignal -h 15 -holdScope mreg[26][31:0]
+addSignal -h 15 -holdScope mreg[25][31:0]
+addSignal -h 15 -holdScope mreg[24][31:0]
+addSignal -h 15 -holdScope mreg[23][31:0]
+addSignal -h 15 -holdScope mreg[22][31:0]
+addSignal -h 15 -holdScope mreg[21][31:0]
+addSignal -h 15 -holdScope mreg[20][31:0]
+addSignal -h 15 -holdScope mreg[19][31:0]
+addSignal -h 15 -holdScope mreg[18][31:0]
+addSignal -h 15 -holdScope mreg[17][31:0]
+addSignal -h 15 -holdScope mreg[16][31:0]
+addSignal -h 15 -holdScope mreg[15][31:0]
+addSignal -h 15 -holdScope mreg[14][31:0]
+addSignal -h 15 -holdScope mreg[13][31:0]
+addSignal -h 15 -holdScope mreg[12][31:0]
+addSignal -h 15 -holdScope mreg[11][31:0]
+addSignal -h 15 -holdScope mreg[10][31:0]
+addSignal -h 15 -holdScope mreg[9][31:0]
+addSignal -h 15 -holdScope mreg[8][31:0]
+addSignal -h 15 -holdScope mreg[7][31:0]
+addSignal -h 15 -holdScope mreg[5][31:0]
+addSignal -h 15 -holdScope mreg[4][31:0]
+addSignal -h 15 -holdScope mreg[3][31:0]
+addSignal -h 15 -holdScope mreg[2][31:0]
+addSignal -h 15 -holdScope mreg[1][31:0]
+addSignal -h 15 -holdScope mreg[0][31:0]
+addGroup "G5"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/build/top.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/top_tb"
+"/top_tb/TOP"
+"/top_tb/TOP/core"
+
+SCOPE_LIST_BEGIN
+"/top_tb"
+"/top_tb/TOP/IM1"
+"/top_tb/TOP/core"
+"/top_tb/TOP/core/rigt"
+"/top_tb/TOP/core/ptl"
+"/top_tb/TOP/core/apc"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+
