@@ -1,5 +1,5 @@
 1601984892 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/decoder_rtl.sv
-1602156109 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/register_rtl.sv
+1602158068 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/register_rtl.sv
 1602149086 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test_rtl.sv
 1602148672 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test_tb.sv
 1602155530 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/imm_extended_rtl.sv
@@ -7,7 +7,7 @@
 1602149357 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/alu_rd_rtl.sv
 1602133979 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/alu_addr_rtl.sv
 1602149280 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/alu_pc_rtl.sv
-1601793120 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/low_byte_control_write_data_rtl.sv
+1602163509 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/low_byte_control_write_data_rtl.sv
 1602144312 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/low_byte_control_read_data_rtl.sv
 1601906564 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/wb_controller_rtl.sv
 1601893880 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/pc_controller_rtl.sv
@@ -16,7 +16,7 @@
 1601819821 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/load_hazard_rtl.sv
 1601833121 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/id_exe_rst_controller_rtl.sv
 1601893093 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/if_id_rst_controller_rtl.sv
-1602126516 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/cpu_rtl.sv
+1602158602 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/cpu_rtl.sv
 1602146629 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/top.sv
 1601973742 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/exe_mem_rst_controller_rtl.sv
 1602076610 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/imm_extended_tb.sv

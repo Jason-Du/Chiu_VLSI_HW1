@@ -1,5 +1,5 @@
 irun: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	irun	15.20-s039: Started on Oct 08, 2020 at 19:54:47 CST
+TOOL:	irun	15.20-s039: Started on Oct 08, 2020 at 21:35:47 CST
 irun
 	/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv
 	+incdir+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./src+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./include+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim
@@ -12,9 +12,9 @@ irun
    User defined plus("+") options:
 	+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog0
 
-Recompiling... reason: file '../src/register_rtl.sv' is newer than expected.
-	expected: Thu Oct  8 19:53:53 2020
-	actual:   Thu Oct  8 19:54:28 2020
+Recompiling... reason: file '../src/low_byte_control_write_data_rtl.sv' is newer than expected.
+	expected: Thu Oct  8 21:25:09 2020
+	actual:   Thu Oct  8 21:35:43 2020
 file: /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv
 `define CYCLE 10.0 // Cycle time
                                 |
@@ -22,7 +22,7 @@ ncvlog: *W,MACNDF (/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./si
 `define MAX 100000 // Max cycle number
                                       |
 ncvlog: *W,MACNDF (/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv,3|38): The text macro 'MAX' has also been defined on the command line using the -DEFINE command line option.  The compiler will ignore the definition found in the Verilog source code.
-	module worklib.register:sv
+	module worklib.low_byte_control_write_data:sv
 		errors: 0, warnings: 0
     $value$plusargs("prog_path=%s", prog_path);
                   |
@@ -64,8 +64,8 @@ ncelab: *W,MEMODR (../sim/top_tb.sv,48|67): $readmem default memory order incomp
 ncelab: *W,MEMODR (../sim/top_tb.sv,49|67): $readmem default memory order incompatible with IEEE1364.
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.register:sv <0x0769199e>
-			streams:   8, words:  4915
+		worklib.low_byte_control_write_data:sv <0x35ce7f12>
+			streams:   1, words:  1392
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -78,7 +78,7 @@ ncelab: *W,MEMODR (../sim/top_tb.sv,49|67): $readmem default memory order incomp
 		Always blocks:           35      33
 		Initial blocks:           2       2
 		Cont. assignments:       94      78
-		Pseudo assignments:     126     126
+		Pseudo assignments:     127     127
 		Simulation timescale:  10ps
 	Writing initial simulation snapshot: worklib.top_tb:sv
 Loading snapshot worklib.top_tb:sv .................... Done
@@ -127,11 +127,11 @@ DM[8219] = 00000f00, pass
 DM[8220] = 000000f0, pass
 DM[8221] = 0000000f, pass
 DM[8222] = 12345678, pass
-DM[8223] = 12345678, expect = 78000000
+DM[8223] = 78000000, pass
 DM[8224] = 12345678, pass
-DM[8225] = 12345678, expect = 00000078
+DM[8225] = 00000078, pass
 DM[8226] = 12345678, pass
-DM[8227] = 2468acf0, expect = 8a345678
+DM[8227] = 8a345678, pass
 DM[8228] = fffff000, pass
 DM[8229] = fffff000, pass
 DM[8230] = fffff000, pass
@@ -147,15 +147,14 @@ DM[8236] = fffff004, pass
 
         ****************************               
         **                        **       |__||  
-        **  OOPS!!                **      / X,X  | 
+        **  Congratulations !!    **      / O.O  | 
         **                        **    /_____   | 
-        **  Simulation Failed!!   **   /^ ^ ^ \  |
+        **  Simulation PASS!!     **   /^ ^ ^ \  |
         **                        **  |^ ^ ^ ^ |w| 
         ****************************   \m___m__|_|
-         Totally has           3 errors                     
 
 
 Simulation complete via $finish(1) at time 84330 NS + 3
 ../sim/top_tb.sv:76     $finish;
 ncsim> exit
-TOOL:	irun	15.20-s039: Exiting on Oct 08, 2020 at 19:54:48 CST  (total: 00:00:01)
+TOOL:	irun	15.20-s039: Exiting on Oct 08, 2020 at 21:35:48 CST  (total: 00:00:01)

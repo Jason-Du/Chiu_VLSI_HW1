@@ -348,3 +348,4 @@ s347(08Oct2020:17:32:05):  ncverilog top.sv -c
 s348(08Oct2020:17:32:12):  ncverilog cpu_rtl.sv -c 
 s349(08Oct2020:19:11:38):  ncverilog cpu_rtl.sv -c 
 s350(08Oct2020:19:21:53):  ncverilog cpu_rtl.sv -c 
+s351(08Oct2020:21:25:27):  ncverilog top.sv -c 

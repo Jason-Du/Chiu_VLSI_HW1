@@ -422,7 +422,7 @@ divider4 div4(
 
 low_byte_control_write_data lwd(
 							.src2(stage3_register_out[63:32]),
-							.memin_low_byte(stage3_register_out[136]),
+							.memin_low_byte(stage3_register_out[137]),
 							.reminder(reminder),
 							
 							.write_data(dm_datain),

@@ -30,12 +30,14 @@
 			32'd0:
 			begin
 				web=4'b1110;
+				//web=4'b0111;
 				write_data={24'd0,src2[7:0]};
 						
 			end
 			32'd1:
 			begin
 				web=4'b1101;
+				//web=4'b1011;
 				write_data={16'd0,src2[7:0],8'd0};			
 			end
 			32'd2:
@@ -56,7 +58,6 @@
 			end
 			
 		endcase
-		
 	end
  
  end
