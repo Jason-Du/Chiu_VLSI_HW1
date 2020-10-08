@@ -45,7 +45,7 @@ cpu core(
 			.clk(clk),
 			.rst(rst),
 			.im_dataout(im_dataout),
-			.dm_dataout(dm_datain),			
+			.dm_dataout(dm_dataout),			
 
 
 			.im_cs(im_cs),

@@ -49,7 +49,7 @@ begin
 		end
 		2'b11:
 		begin
-			src1_data=mem_data;
+			src1_data=exe_data;
 		end
 	endcase
 end
@@ -71,7 +71,7 @@ begin
 		end
 		2'b11:
 		begin
-			src2_data=mem_data;
+			src2_data=exe_data;
 		end
 	endcase
 end

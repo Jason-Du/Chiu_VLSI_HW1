@@ -14,7 +14,7 @@ output logic [DATA_SIZE-1:0] quotient;
 
 always_comb
 begin
-	quotient=mem_addr>>2;
-	reminder=mem_addr-quotient;
+	quotient=unsigned'(mem_addr)>>2;
+	reminder=mem_addr-(unsigned'(quotient)<<2);
 end
 endmodule

@@ -17,7 +17,7 @@
  
  always_comb
  begin
-	if(read_mem_data==1'b0)
+	if(memout_low_byte==1'b0)
 	begin
 		read_mem_data=memout;
 	end

@@ -1,5 +1,5 @@
 irun: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	irun	15.20-s039: Started on Oct 07, 2020 at 02:10:40 CST
+TOOL:	irun	15.20-s039: Started on Oct 08, 2020 at 16:44:06 CST
 irun
 	/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv
 	+incdir+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./src+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./include+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim
@@ -12,9 +12,9 @@ irun
    User defined plus("+") options:
 	+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog0
 
-Recompiling... reason: file '../src/register_rtl.sv' is newer than expected.
-	expected: Wed Oct  7 01:22:24 2020
-	actual:   Wed Oct  7 02:10:11 2020
+Recompiling... reason: file '../src/top.sv' is newer than expected.
+	expected: Mon Oct  5 23:12:38 2020
+	actual:   Thu Oct  8 16:43:49 2020
 file: /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv
 `define CYCLE 10.0 // Cycle time
                                 |
@@ -22,7 +22,7 @@ ncvlog: *W,MACNDF (/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./si
 `define MAX 100000 // Max cycle number
                                       |
 ncvlog: *W,MACNDF (/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv,3|38): The text macro 'MAX' has also been defined on the command line using the -DEFINE command line option.  The compiler will ignore the definition found in the Verilog source code.
-	module worklib.register:sv
+	module worklib.top:sv
 		errors: 0, warnings: 0
     $value$plusargs("prog_path=%s", prog_path);
                   |
@@ -64,21 +64,21 @@ ncelab: *W,MEMODR (../sim/top_tb.sv,48|67): $readmem default memory order incomp
 ncelab: *W,MEMODR (../sim/top_tb.sv,49|67): $readmem default memory order incompatible with IEEE1364.
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.register:sv <0x0769199e>
-			streams:   8, words:  4915
+		worklib.top:sv <0x54789bff>
+			streams:  25, words:  5545
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                  Instances  Unique
 		Modules:                 26      24
-		Registers:              162     154
+		Registers:              169     161
 		Scalar wires:           239       -
 		Expanded wires:         164       8
 		Vectored wires:         122       -
 		Always blocks:           35      33
 		Initial blocks:           2       2
 		Cont. assignments:       94      78
-		Pseudo assignments:     124     124
+		Pseudo assignments:     126     126
 		Simulation timescale:  10ps
 	Writing initial simulation snapshot: worklib.top_tb:sv
 Loading snapshot worklib.top_tb:sv .................... Done
@@ -93,52 +93,54 @@ FSDB Dumper for IUS, Release Verdi_P-2019.06, Linux, 05/26/2019
 *Verdi* : Begin traversing the scope (top_tb.TOP), layer (0).
 *Verdi* : Enable +struct and +mda dumping.
 *Verdi* : End of traversing.
-DM[8192] = 00000000, expect = fffffff0
-DM[8193] = xxxxxxxx, expect = fffffff8
-DM[8194] = xxxxxxxx, expect = 00000008
-DM[8195] = xxxxxxxx, expect = 00000001
-DM[8196] = 00000000, expect = 00000001
-DM[8197] = xxxxxxxx, expect = 78787878
-DM[8198] = 00000000, expect = 000091a2
-DM[8199] = xxxxxxxx, expect = 00000003
-DM[8200] = xxxxxxxx, expect = fefcfefd
-DM[8201] = xxxxxxxx, expect = 10305070
-DM[8202] = xxxxxxxx, expect = cccccccc
-DM[8203] = xxxxxxxx, expect = ffffffcc
-DM[8204] = xxxxxxxx, expect = cccccccc
-DM[8205] = xxxxxxxx, expect = ffffffcc
-DM[8206] = xxxxxxxx, expect = cccccccc
-DM[8207] = xxxxxxxx, expect = 00000d9d
-DM[8208] = xxxxxxxx, expect = 00000004
-DM[8209] = xxxxxxxx, expect = 00000003
-DM[8210] = xxxxxxxx, expect = 000001a6
-DM[8211] = xxxxxxxx, expect = 00000ec6
-DM[8212] = xxxxxxxx, expect = 2468b7a8
-DM[8213] = xxxxxxxx, expect = 5dbf9f00
-DM[8214] = xxxxxxxx, expect = 00012b38
-DM[8215] = xxxxxxxx, expect = fa2817b7
-DM[8216] = xxxxxxxx, expect = ff000000
-DM[8217] = xxxxxxxx, expect = 12345678
-DM[8218] = xxxxxxxx, expect = 0000f000
-DM[8219] = xxxxxxxx, expect = 00000f00
-DM[8220] = xxxxxxxx, expect = 000000f0
-DM[8221] = xxxxxxxx, expect = 0000000f
-DM[8222] = xxxxxxxx, expect = 12345678
-DM[8223] = xxxxxxxx, expect = 78000000
-DM[8224] = xxxxxxxx, expect = 12345678
-DM[8225] = xxxxxxxx, expect = 00000078
-DM[8226] = xxxxxxxx, expect = 12345678
-DM[8227] = xxxxxxxx, expect = 8a345678
-DM[8228] = xxxxxxxx, expect = fffff000
-DM[8229] = xxxxxxxx, expect = fffff000
-DM[8230] = xxxxxxxx, expect = fffff000
-DM[8231] = 00000000, expect = fffff000
-DM[8232] = xxxxxxxx, expect = fffff000
-DM[8233] = xxxxxxxx, expect = fffff000
-DM[8234] = xxxxxxxx, expect = 1357a070
-DM[8235] = xxxxxxxx, expect = 13578000
-DM[8236] = xxxxxxxx, expect = fffff004
-SIM_END(16383) = xxxxxxxx, expect = ffffffff
+
+Done
+
+DM[8192] = fffffff0, pass
+DM[8193] = fffffff8, pass
+DM[8194] = 00000008, pass
+DM[8195] = 00000001, pass
+DM[8196] = 00000001, pass
+DM[8197] = 78787878, pass
+DM[8198] = 000091a2, pass
+DM[8199] = 00000003, pass
+DM[8200] = fefcfefd, pass
+DM[8201] = 10305070, pass
+DM[8202] = 0000007f, expect = cccccccc
+DM[8203] = 0000007f, expect = ffffffcc
+DM[8204] = 0000007f, expect = cccccccc
+DM[8205] = 0000007f, expect = ffffffcc
+DM[8206] = 0000007f, expect = cccccccc
+DM[8207] = 00000d9d, pass
+DM[8208] = 00000004, pass
+DM[8209] = 00000000, expect = 00000003
+DM[8210] = 000001a6, pass
+DM[8211] = 00000ec6, pass
+DM[8212] = 2468b7a8, pass
+DM[8213] = 5dbf9f00, pass
+DM[8214] = 00012b38, pass
+DM[8215] = f7c734c0, expect = fa2817b7
+DM[8216] = ff000000, pass
+DM[8217] = 12345678, pass
+DM[8218] = 0000f000, pass
+DM[8219] = 00000f00, pass
+DM[8220] = 000000f0, pass
+DM[8221] = 0000000f, pass
+DM[8222] = 00000000, expect = 12345678
+DM[8223] = 00000000, expect = 78000000
+DM[8224] = 00000000, expect = 12345678
+DM[8225] = 00000000, expect = 00000078
+DM[8226] = 12345678, pass
+DM[8227] = 00000000, expect = 8a345678
+DM[8228] = fffff000, pass
+DM[8229] = fffff000, pass
+DM[8230] = fffff000, pass
+DM[8231] = fffff000, pass
+DM[8232] = fffff000, pass
+DM[8233] = fffff000, pass
+DM[8234] = 1357a070, pass
+DM[8235] = 13578000, pass
+DM[8236] = fffff004, pass
 
 
 
@@ -150,10 +152,10 @@ SIM_END(16383) = xxxxxxxx, expect = ffffffff
         **  Simulation Failed!!   **   /^ ^ ^ \  |
         **                        **  |^ ^ ^ ^ |w| 
         ****************************   \m___m__|_|
-         Totally has          45 errors                     
+         Totally has          12 errors                     
 
 
-Simulation complete via $finish(1) at time 1 MS + 0
-../sim/top_tb.sv:107     $finish;
+Simulation complete via $finish(1) at time 84330 NS + 3
+../sim/top_tb.sv:76     $finish;
 ncsim> exit
-TOOL:	irun	15.20-s039: Exiting on Oct 07, 2020 at 02:10:44 CST  (total: 00:00:04)
+TOOL:	irun	15.20-s039: Exiting on Oct 08, 2020 at 16:44:08 CST  (total: 00:00:02)

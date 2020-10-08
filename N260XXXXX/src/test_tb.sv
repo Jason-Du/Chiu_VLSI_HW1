@@ -6,15 +6,15 @@
  
  
  
- logic [ 7:0] in;
- logic [ 7:0] signed_in;
- //logic [31:0]signed_out;
- logic [31:0] unsigned_out;
+ logic [ 11:0] in;
+ logic [31:0]signe_out;
+ logic [31:0]unsigne_out;
+
  test t0(
 		.datain(in),
-		.signed_datain(signed_in),
-//		.signed_dataout(signed_out),
-		.unsigned_dataout(unsigned_out)
+		
+		.signe_dataout(signed_out),
+		.unsigne_dataout(unsigned_out)
 		);
  
  
@@ -22,26 +22,18 @@
  
 initial 
  begin // Declare Input patterns
-	    in = 8'b11100110;signed_in=8'b00000011;
-	#10 in = 8'b01100110;signed_in=8'b11111011;
+	    in = 12'hfe0;
+	#10 in = 12'h020;
 end
  
  
  
-initial
 
-begin
-
-$dumpfile("test.vcd");
-
-$dumpvars();
-
-end
 
  
 initial 
 begin
-	$fsdbDumpfile("RAM.fsdb");
+	$fsdbDumpfile("test.fsdb");
 	$fsdbDumpvars;
 	#10000 $finish;
 end

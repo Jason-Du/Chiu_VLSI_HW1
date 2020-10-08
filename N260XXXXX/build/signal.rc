@@ -2,7 +2,7 @@ Magic 271485
 Revision Verdi_P-2019.06
 
 ; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
-viewPort -1 27 1920 977 347 78
+viewPort -1 27 1920 872 347 78
 
 ; File list:
 ; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
@@ -16,23 +16,22 @@ signalSpacing 5
 
 ; windowTimeUnit is used for zoom, cursor & marker
 ; waveform viewport range
-zoom 7653536.132812 7677950.195312
-cursor 7667500.000000
+zoom 7716383.510480 7730150.531439
+cursor 7717500.000000
 marker 0.000000
 
 ; user define markers
 ; userMarker time_pos marker_name color linestyle
-userMarker 7663500 JUMP_I ID_RED5 line_solid
-userMarker 7667500 JUMPADDRESS ID_RED5 line_solid
-userMarker 7268500 START ID_ORANGE5 line_solid
-userMarker 7265500 M3 ID_RED5 line_solid
-userMarker 6065500 M2 ID_RED5 line_solid
-userMarker 67500 M1 ID_RED5 line_solid
+userMarker 7727477.724 1CLK ID_RED5 line_solid
+userMarker 7728500 2CLK ID_RED5 line_solid
+userMarker 7744500 SecondStore ID_RED5 line_solid
+userMarker 7729500 FirstStore ID_RED5 line_solid
+userMarker 7709500 START ID_ORANGE5 line_solid
 
 ; visible top row signal index
-top 0
+top 7
 ; marker line index
-markerPos 10
+markerPos 25
 
 ; event list
 ; addEvent event_name event_expression
@@ -60,28 +59,31 @@ addSignal -h 15 /top_tb/TOP/core/pc_register_out[31:0]
 addSignal -h 15 -UNSIGNED -HEX /top_tb/TOP/IM1/DO[31:0]
 addSignal -h 15 /BLANK
 addSignal -h 15 -holdScope BLANK
-addSignal -h 15 -UNSIGNED -HEX /top_tb/TOP/core/rigt/mreg[6][31:0]
+addSignal -h 15 /top_tb/TOP/DM1/OE
+addSignal -h 15 -holdScope DI[31:0]
+addSignal -h 15 -holdScope DO[31:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope A[13:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope WEB[3:0]
 addSignal -h 15 /BLANK
 addSignal -h 15 -holdScope BLANK
 addSignal -h 15 -holdScope BLANK
-addSignal -h 15 /top_tb/TOP/core/ptl/enable_jump
-addSignal -h 15 -holdScope pc_data[31:0]
-addSignal -h 15 -holdScope pc_jump_address[31:0]
-addSignal -h 15 -holdScope pc_jump_control
+addSignal -h 15 -UNSIGNED -HEX /top_tb/TOP/core/rigt/mreg[6][31:0]
+addSignal -h 15 -holdScope mreg[5][31:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 -holdScope BLANK
+addSignal -h 15 -holdScope BLANK
 addGroup "G2"
-addGroup "G3"
-addSignal -h 15 /top_tb/TOP/core/apc/alu_pc_control[2:0]
-addSignal -h 15 -holdScope enable_jump
-addSignal -h 15 -holdScope id_exe_rst
-addSignal -h 15 -holdScope if_id_rst
-addSignal -h 15 -holdScope imm_data[31:0]
-addSignal -h 15 -holdScope pc[31:0]
-addSignal -h 15 -holdScope pc_jump_address[31:0]
-addSignal -h 15 -holdScope pc_jump_address_overflow[31:0]
-addSignal -h 15 -holdScope pc_jump_control
+addSignal -h 15 /top_tb/TOP/core/ard/src2[31:0]
 addSignal -h 15 -holdScope src1[31:0]
-addSignal -h 15 -holdScope src2[31:0]
+addSignal -h 15 /top_tb/TOP/core/fwu/rs2_exe_hazard
+addSignal -h 15 -holdScope rs2_mem_hazard
+addSignal -h 15 /top_tb/TOP/core/ard/alu_rd_data[31:0]
+addGroup "G3"
 addGroup "G4"
+addSignal -h 15 /BLANK
+addSignal -h 15 -holdScope BLANK
+addSignal -h 15 -holdScope BLANK
+addSignal -h 15 -holdScope BLANK
 addSignal -h 15 /top_tb/TOP/core/rigt/mreg[31][31:0]
 addSignal -h 15 -holdScope mreg[30][31:0]
 addSignal -h 15 -holdScope mreg[29][31:0]
@@ -107,7 +109,6 @@ addSignal -h 15 -holdScope mreg[10][31:0]
 addSignal -h 15 -holdScope mreg[9][31:0]
 addSignal -h 15 -holdScope mreg[8][31:0]
 addSignal -h 15 -holdScope mreg[7][31:0]
-addSignal -h 15 -holdScope mreg[5][31:0]
 addSignal -h 15 -holdScope mreg[4][31:0]
 addSignal -h 15 -holdScope mreg[3][31:0]
 addSignal -h 15 -holdScope mreg[2][31:0]
@@ -124,6 +125,7 @@ getSignalForm close
 
 "/top_tb"
 "/top_tb/TOP"
+"/top_tb/TOP/DM1"
 "/top_tb/TOP/core"
 
 SCOPE_LIST_BEGIN
@@ -133,6 +135,18 @@ SCOPE_LIST_BEGIN
 "/top_tb/TOP/core/rigt"
 "/top_tb/TOP/core/ptl"
 "/top_tb/TOP/core/apc"
+"/top_tb/TOP/core/dc"
+"/top_tb/TOP/core/iex"
+"/top_tb/TOP/core/exememrst"
+"/top_tb/TOP/core/fwu"
+"/top_tb/TOP/core/ais"
+"/top_tb/TOP/core/id_comb"
+"/top_tb/TOP/core/idexerst"
+"/top_tb/TOP/DM1"
+"/top_tb/TOP"
+"/top_tb/TOP/core/div4"
+"/top_tb/TOP/core/ard"
+"/top_tb/TOP/core/adr"
 SCOPE_LIST_END
 
 GETSIGNALFORM_SCOPE_HIERARCHY_END

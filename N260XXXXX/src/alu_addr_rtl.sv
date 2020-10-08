@@ -12,6 +12,7 @@
  input        [DATA_SIZE-1:0] imm_data;
  
  output logic [         31:0] alu_addr_out;
+ 
  always_comb
  begin
 	alu_addr_out=signed'(src1)+signed'(imm_data);

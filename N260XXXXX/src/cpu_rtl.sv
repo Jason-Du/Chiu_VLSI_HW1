@@ -241,17 +241,27 @@ control cl(
 register rigt(
 			.rs1_addr(rs1_addr),
 			.rs2_addr(rs2_addr),
-			.rd_addr(stage4_register_out[36:32]),
+			//.rd_addr(stage4_register_out[36:32]),
+			.rd_addr(stage3_register_out[132:128]),
 			.clk(clk),
 			.rst(rst),
 			.read_reg(read_reg),
-			.write_reg(stage4_register_out[37]),
-			.write_data(stage4_register_out[31:0]),
+			.write_reg(stage3_register_out[140]),
+			.write_data(wb_data),
+			//.write_reg(stage4_register_out[37]),
+			//.write_data(stage4_register_out[31:0]),
 			
 			
 			.rs1_data(rs1_data),
 			.rs2_data(rs2_data)
 				);
+/*
+		stage4_register_in={
+					stage3_register_out[140],
+					stage3_register_out[132:128],
+					wb_data
+					};
+*/
 imm_extended iex(
 					.imm_i_data(imm_i_data),
 					.imm_b_data(imm_b_data),
@@ -396,7 +406,7 @@ begin:mem_comb
 	dm_oe=stage3_register_out[138];
 	dm_cs=1'b1;
 	dm_addr=quotient[13:0];
-	dm_web=web_data & 4'(stage3_register_out[139]);
+	dm_web=(stage3_register_out[139])?web_data:4'b1111;
 	stage4_register_in={
 					stage3_register_out[140],
 					stage3_register_out[132:128],
