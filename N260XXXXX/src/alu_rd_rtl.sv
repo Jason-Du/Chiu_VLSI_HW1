@@ -59,7 +59,7 @@ begin
 		end
 		5'd7:
 		begin
-			alu_rd_data=signed'(src1_signed)>>src2[4:0];
+			alu_rd_data=signed'(src1_signed)>>>src2[4:0];
 		end
 		5'd8:
 		begin
@@ -104,7 +104,7 @@ begin
 		end
 		5'd18:
 		begin
-			alu_rd_data=signed'(src1_signed)<<imm_data[4:0];
+			alu_rd_data=signed'(src1_signed)>>>imm_data[4:0];
 		end
 		5'd19:
 		begin

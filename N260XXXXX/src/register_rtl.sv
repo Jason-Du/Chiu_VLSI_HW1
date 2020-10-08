@@ -34,7 +34,7 @@ output logic [DATA_SIZE-1:0] rs2_data;
 
 logic        [DATA_SIZE-1:0] mreg [STP_REGSIZE-1:0];
 
-always_ff@(negedge clk)
+always_ff@(posedge clk)
 begin:write_in_register
 	if (rst==1'b1)
 	begin

@@ -138,7 +138,7 @@ begin
 				3'b011:
 				begin
 					alu_rd_control=5'd12;
-					imm_control   =3'd0;
+					imm_control   =3'd1;
 				end
 				3'b100:
 				begin

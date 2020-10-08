@@ -6,15 +6,15 @@
  
  
  
- logic [ 11:0] in;
- logic [31:0]signe_out;
+ logic [11:0] in;
+ logic [11:0]signe_out;
  logic [31:0]unsigne_out;
 
  test t0(
 		.datain(in),
 		
-		.signe_dataout(signed_out),
-		.unsigne_dataout(unsigned_out)
+		.signe_dataout(signe_out),
+		.unsigne_dataout(unsigne_out)
 		);
  
  
@@ -22,8 +22,7 @@
  
 initial 
  begin // Declare Input patterns
-	    in = 12'hfe0;
-	#10 in = 12'h020;
+	    in = 12'hae0;
 end
  
  

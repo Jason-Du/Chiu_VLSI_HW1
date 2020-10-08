@@ -1,5 +1,5 @@
 irun: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	irun	15.20-s039: Started on Oct 08, 2020 at 16:44:06 CST
+TOOL:	irun	15.20-s039: Started on Oct 08, 2020 at 19:54:47 CST
 irun
 	/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv
 	+incdir+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./src+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./include+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim
@@ -12,9 +12,9 @@ irun
    User defined plus("+") options:
 	+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog0
 
-Recompiling... reason: file '../src/top.sv' is newer than expected.
-	expected: Mon Oct  5 23:12:38 2020
-	actual:   Thu Oct  8 16:43:49 2020
+Recompiling... reason: file '../src/register_rtl.sv' is newer than expected.
+	expected: Thu Oct  8 19:53:53 2020
+	actual:   Thu Oct  8 19:54:28 2020
 file: /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv
 `define CYCLE 10.0 // Cycle time
                                 |
@@ -22,7 +22,7 @@ ncvlog: *W,MACNDF (/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./si
 `define MAX 100000 // Max cycle number
                                       |
 ncvlog: *W,MACNDF (/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv,3|38): The text macro 'MAX' has also been defined on the command line using the -DEFINE command line option.  The compiler will ignore the definition found in the Verilog source code.
-	module worklib.top:sv
+	module worklib.register:sv
 		errors: 0, warnings: 0
     $value$plusargs("prog_path=%s", prog_path);
                   |
@@ -64,14 +64,14 @@ ncelab: *W,MEMODR (../sim/top_tb.sv,48|67): $readmem default memory order incomp
 ncelab: *W,MEMODR (../sim/top_tb.sv,49|67): $readmem default memory order incompatible with IEEE1364.
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.top:sv <0x54789bff>
-			streams:  25, words:  5545
+		worklib.register:sv <0x0769199e>
+			streams:   8, words:  4915
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                  Instances  Unique
 		Modules:                 26      24
-		Registers:              169     161
+		Registers:              168     160
 		Scalar wires:           239       -
 		Expanded wires:         164       8
 		Vectored wires:         122       -
@@ -106,32 +106,32 @@ DM[8198] = 000091a2, pass
 DM[8199] = 00000003, pass
 DM[8200] = fefcfefd, pass
 DM[8201] = 10305070, pass
-DM[8202] = 0000007f, expect = cccccccc
-DM[8203] = 0000007f, expect = ffffffcc
-DM[8204] = 0000007f, expect = cccccccc
-DM[8205] = 0000007f, expect = ffffffcc
-DM[8206] = 0000007f, expect = cccccccc
+DM[8202] = cccccccc, pass
+DM[8203] = ffffffcc, pass
+DM[8204] = cccccccc, pass
+DM[8205] = ffffffcc, pass
+DM[8206] = cccccccc, pass
 DM[8207] = 00000d9d, pass
 DM[8208] = 00000004, pass
-DM[8209] = 00000000, expect = 00000003
+DM[8209] = 00000003, pass
 DM[8210] = 000001a6, pass
 DM[8211] = 00000ec6, pass
 DM[8212] = 2468b7a8, pass
 DM[8213] = 5dbf9f00, pass
 DM[8214] = 00012b38, pass
-DM[8215] = f7c734c0, expect = fa2817b7
+DM[8215] = fa2817b7, pass
 DM[8216] = ff000000, pass
 DM[8217] = 12345678, pass
 DM[8218] = 0000f000, pass
 DM[8219] = 00000f00, pass
 DM[8220] = 000000f0, pass
 DM[8221] = 0000000f, pass
-DM[8222] = 00000000, expect = 12345678
-DM[8223] = 00000000, expect = 78000000
-DM[8224] = 00000000, expect = 12345678
-DM[8225] = 00000000, expect = 00000078
+DM[8222] = 12345678, pass
+DM[8223] = 12345678, expect = 78000000
+DM[8224] = 12345678, pass
+DM[8225] = 12345678, expect = 00000078
 DM[8226] = 12345678, pass
-DM[8227] = 00000000, expect = 8a345678
+DM[8227] = 2468acf0, expect = 8a345678
 DM[8228] = fffff000, pass
 DM[8229] = fffff000, pass
 DM[8230] = fffff000, pass
@@ -152,10 +152,10 @@ DM[8236] = fffff004, pass
         **  Simulation Failed!!   **   /^ ^ ^ \  |
         **                        **  |^ ^ ^ ^ |w| 
         ****************************   \m___m__|_|
-         Totally has          12 errors                     
+         Totally has           3 errors                     
 
 
 Simulation complete via $finish(1) at time 84330 NS + 3
 ../sim/top_tb.sv:76     $finish;
 ncsim> exit
-TOOL:	irun	15.20-s039: Exiting on Oct 08, 2020 at 16:44:08 CST  (total: 00:00:02)
+TOOL:	irun	15.20-s039: Exiting on Oct 08, 2020 at 19:54:48 CST  (total: 00:00:01)

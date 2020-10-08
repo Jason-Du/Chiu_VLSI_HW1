@@ -2,5 +2,5 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-top.sv
+cpu_rtl.sv
 -c

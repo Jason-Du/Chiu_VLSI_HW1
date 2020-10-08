@@ -221,6 +221,8 @@ Selection-LineColor = ID_BLUE2
 Selection-LineWidth = 1
 [FSM_Dlg-Print]
 Orientation = Landscape
+[FileBrowser]
+nWaveOpenFsdbDirHistory = "\"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test.fsdb\"" "\"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/imm_extended.fsdb\"" "\"/home/khduh/Desktop/centosshare/top.fsdb\""
 [Form]
 version = Verdi_P-2019.06
 [General]
@@ -381,8 +383,10 @@ savePropStat = FALSE
 savePropDtl = TRUE
 [QtDialog]
 importDesignForm = 411,249,715,574
-QwUserAskDlg = 617,479,324,130
-openFileDlg = 168,522,1013,483
+qWaveSignalDialog = 737,305,800,479
+openFileDlg = 687,305,1013,483
+QwWarnMsgDlg = 659,393,600,250
+QwUserAskDlg = 798,434,324,134
 [Relationship]
 hideRecursiceNode = FALSE
 [Session Cache]
@@ -707,8 +711,8 @@ waveform_vertical_scroll_bar = TRUE
 scope_to_save_with_macro
 open_file_dir
 open_rc_file_dir
-getSignalForm = 0 0 800 479 100 30 100 30
-viewPort = 667 246 960 332 100 65
+getSignalForm = 737 268 800 479 245 381 505 183
+viewPort = -1 27 1920 872 281 65
 signalSpacing = 5
 digitalSignalHeight = 15
 analogSignalHeight = 98
@@ -775,6 +779,7 @@ analogVoltageStyle = pwl
 analogCurrentStyle = pwl
 analogOthersStyle = pwl
 busSignalLayer = -c ID_ORANGE8
+busXLayer = -c ID_RED5
 busZLayer = -c ID_ORANGE6
 busMixedLayer = -c ID_GREEN5
 busNotComputedLayer = -c ID_GRAY1
@@ -978,6 +983,9 @@ curveWindow_Drag&Drop_Mode = TRUE
 hspiceIncOpenMode = TRUE
 pcSelectMode = TRUE
 hierarchyDelimiter = /
+RecentFile1 = "\"/home/khduh/Desktop/centosshare/top.fsdb\""
+RecentFile2 = "\"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/imm_extended.fsdb\""
+RecentFile3 = "\"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test.fsdb\""
 open_file_time_range = FALSE
 value_window_aligment = Right
 signal_window_alignment = Auto
