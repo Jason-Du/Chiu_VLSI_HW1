@@ -95,17 +95,17 @@ Runtime command line arguments:
 argv[0]=irun
 argv[1]=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv
 argv[2]=+incdir+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./src+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./include+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim
-argv[3]=+define+prog1
+argv[3]=+define+prog3
 argv[4]=-define
 argv[5]=CYCLE=10.0
 argv[6]=-define
 argv[7]=MAX=100000
 argv[8]=+access+r
-argv[9]=+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog1
+argv[9]=+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog3
 104 profile - 100
-          CPU/Mem usage: 0.030 sys,  0.030 user,  61.91M sys,  0.00M vm
+          CPU/Mem usage: 0.040 sys,  0.010 user,  61.91M sys,  0.00M vm
 105 VC callback profile - scalar:0 vector:0
-106 Sun Oct 11 03:26:55 2020
+106 Sun Oct 11 16:55:38 2020
 107 pliAppInit
 108 FSDB_GATE is disabled.
 109 Enable Parallel Dumping.

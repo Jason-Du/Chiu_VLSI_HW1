@@ -1,17 +1,78 @@
 irun: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	irun	15.20-s039: Started on Oct 11, 2020 at 03:26:55 CST
+TOOL:	irun	15.20-s039: Started on Oct 11, 2020 at 16:55:37 CST
 irun
 	/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv
 	+incdir+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./src+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./include+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim
-	+define+prog1
+	+define+prog3
 	-define CYCLE=10.0
 	-define MAX=100000
 	+access+r
-	+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog1
+	+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog3
 
    User defined plus("+") options:
-	+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog1
+	+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog3
 
+file: /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv
+`define CYCLE 10.0 // Cycle time
+                                |
+ncvlog: *W,MACNDF (/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv,2|32): The text macro 'CYCLE' has also been defined on the command line using the -DEFINE command line option.  The compiler will ignore the definition found in the Verilog source code.
+`define MAX 100000 // Max cycle number
+                                      |
+ncvlog: *W,MACNDF (/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv,3|38): The text macro 'MAX' has also been defined on the command line using the -DEFINE command line option.  The compiler will ignore the definition found in the Verilog source code.
+    $value$plusargs("prog_path=%s", prog_path);
+                  |
+ncvlog: *W,NOSYST (/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv,39|18): System function '$value$plusargs' invoked as a task. Return value will be ignored.
+      $fscanf(gf, "%h\n", GOLDEN[num]);
+            |
+ncvlog: *W,NOSYST (/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/top_tb.sv,54|12): System function '$fscanf' invoked as a task. Return value will be ignored.
+ncvlog: *W,SPDUSD: Include directory /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./include given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 3
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+    $readmemh({prog_path, "/main0.hex"}, TOP.IM1.i_SRAM.Memory_byte0);
+                                                                   |
+ncelab: *W,MEMODR (../sim/top_tb.sv,42|67): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/main0.hex"}, TOP.DM1.i_SRAM.Memory_byte0); 
+                                                                   |
+ncelab: *W,MEMODR (../sim/top_tb.sv,43|67): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/main1.hex"}, TOP.IM1.i_SRAM.Memory_byte1);
+                                                                   |
+ncelab: *W,MEMODR (../sim/top_tb.sv,44|67): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/main1.hex"}, TOP.DM1.i_SRAM.Memory_byte1); 
+                                                                   |
+ncelab: *W,MEMODR (../sim/top_tb.sv,45|67): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/main2.hex"}, TOP.IM1.i_SRAM.Memory_byte2);
+                                                                   |
+ncelab: *W,MEMODR (../sim/top_tb.sv,46|67): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/main2.hex"}, TOP.DM1.i_SRAM.Memory_byte2); 
+                                                                   |
+ncelab: *W,MEMODR (../sim/top_tb.sv,47|67): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/main3.hex"}, TOP.IM1.i_SRAM.Memory_byte3);
+                                                                   |
+ncelab: *W,MEMODR (../sim/top_tb.sv,48|67): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/main3.hex"}, TOP.DM1.i_SRAM.Memory_byte3); 
+                                                                   |
+ncelab: *W,MEMODR (../sim/top_tb.sv,49|67): $readmem default memory order incompatible with IEEE1364.
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                 27      25
+		Registers:              171     163
+		Scalar wires:           241       -
+		Expanded wires:         164       8
+		Vectored wires:         126       -
+		Always blocks:           36      34
+		Initial blocks:           2       2
+		Cont. assignments:       94      78
+		Pseudo assignments:     129     129
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.top_tb:sv
 Loading snapshot worklib.top_tb:sv .................... Done
 ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
 *Verdi* Loading libsscore_ius152.so
@@ -20,38 +81,7 @@ ncsim> run
 
 Done
 
-DM[8192] = 8649ecbe, pass
-DM[8193] = 891356b5, pass
-DM[8194] = 9ef8965a, pass
-DM[8195] = a5adad14, pass
-DM[8196] = ac1c9aa9, pass
-DM[8197] = b1327c91, pass
-DM[8198] = c2c287dc, pass
-DM[8199] = c5707a3d, pass
-DM[8200] = d6186134, pass
-DM[8201] = db2764d5, pass
-DM[8202] = e611dbc0, pass
-DM[8203] = e912d024, pass
-DM[8204] = e93d369e, pass
-DM[8205] = f06cb80b, pass
-DM[8206] = f1929166, pass
-DM[8207] = fe884149, pass
-DM[8208] = 02cd65b5, pass
-DM[8209] = 16c5d5af, pass
-DM[8210] = 1e0bf7e8, pass
-DM[8211] = 3ac18e4f, pass
-DM[8212] = 3dfce9a2, pass
-DM[8213] = 423b1f26, pass
-DM[8214] = 42e38aa1, pass
-DM[8215] = 43eb84d8, pass
-DM[8216] = 4b57f8af, pass
-DM[8217] = 4c9f24fa, pass
-DM[8218] = 5d50f3a8, pass
-DM[8219] = 608dc931, pass
-DM[8220] = 66290483, pass
-DM[8221] = 73902c5d, pass
-DM[8222] = 7a27c66f, pass
-DM[8223] = 7b1ed6e1, pass
+DM[8192] = 00000003, pass
 
 
 
@@ -65,7 +95,7 @@ DM[8223] = 7b1ed6e1, pass
         ****************************   \m___m__|_|
 
 
-Simulation complete via $finish(1) at time 440510 NS + 3
+Simulation complete via $finish(1) at time 127530 NS + 3
 ../sim/top_tb.sv:76     $finish;
 ncsim> exit
-TOOL:	irun	15.20-s039: Exiting on Oct 11, 2020 at 03:26:55 CST  (total: 00:00:00)
+TOOL:	irun	15.20-s039: Exiting on Oct 11, 2020 at 16:55:38 CST  (total: 00:00:01)

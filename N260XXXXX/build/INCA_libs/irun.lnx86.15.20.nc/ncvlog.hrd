@@ -9,7 +9,7 @@
 -INCDIR
 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim
 -DEFINE
-prog1
+prog3
 -DEFINE
 CYCLE=10.0
 -DEFINE

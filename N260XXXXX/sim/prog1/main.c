@@ -1,14 +1,14 @@
 int main()
 {
 	
-	extern int array_size;
-	extern int array_addr;
+	extern signed int array_size;
+	extern signed int array_addr;
 
-	extern int _test_start;
+	extern signed int _test_start;
 	int number=*(&(array_size));
 	int i=0;
 	int j=0;
-	int temp =0;
+	signed int temp =0;
 	for (i=0; i <number; ++i)
 	{
 		for (j=0; j <number; ++j)
