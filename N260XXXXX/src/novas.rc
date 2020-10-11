@@ -383,10 +383,10 @@ savePropStat = FALSE
 savePropDtl = TRUE
 [QtDialog]
 importDesignForm = 411,249,715,574
-qWaveSignalDialog = 737,305,800,479
-openFileDlg = 687,305,1013,483
 QwWarnMsgDlg = 659,393,600,250
 QwUserAskDlg = 798,434,324,134
+openFileDlg = 360,159,1013,587
+qWaveSignalDialog = 559,260,800,479
 [Relationship]
 hideRecursiceNode = FALSE
 [Session Cache]
@@ -711,7 +711,7 @@ waveform_vertical_scroll_bar = TRUE
 scope_to_save_with_macro
 open_file_dir
 open_rc_file_dir
-getSignalForm = 737 268 800 479 245 381 505 183
+getSignalForm = 559 223 800 479 245 381 505 183
 viewPort = -1 27 1920 872 281 65
 signalSpacing = 5
 digitalSignalHeight = 15
@@ -983,9 +983,9 @@ curveWindow_Drag&Drop_Mode = TRUE
 hspiceIncOpenMode = TRUE
 pcSelectMode = TRUE
 hierarchyDelimiter = /
-RecentFile1 = "\"/home/khduh/Desktop/centosshare/top.fsdb\""
-RecentFile2 = "\"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/imm_extended.fsdb\""
-RecentFile3 = "\"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test.fsdb\""
+RecentFile1 = "\"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/test.fsdb\""
+RecentFile2 = "\"/home/khduh/Desktop/centosshare/top.fsdb\""
+RecentFile3 = "\"/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/src/imm_extended.fsdb\""
 open_file_time_range = FALSE
 value_window_aligment = Right
 signal_window_alignment = Auto

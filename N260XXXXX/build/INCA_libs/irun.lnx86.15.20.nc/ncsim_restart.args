@@ -2,15 +2,15 @@
 // File created by:  irun
 // Do not modify this file
 //
-+prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog0
++prog_path=/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim/prog1
 +incdir+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./src+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./include+/home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim
-+define+prog0+FSDB_ALL
++define+prog1
 +access+r
 -MESSAGES
 +EMGRLOG
 irun.log
 -XLSTIME
-1602164147
+1602358015
 -XLKEEP
 -XLMODE
 ./INCA_libs/irun.lnx86.15.20.nc
@@ -24,4 +24,4 @@ irun
 -XLVERSION
 "TOOL:	irun	15.20-s039"
 -XLNAME
-./INCA_libs/irun.lnx86.15.20.nc/ncku.virtualbox_24876
+./INCA_libs/irun.lnx86.15.20.nc/ncku.virtualbox_3538

@@ -1,57 +1,70 @@
 ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Oct 08, 2020 at 21:25:27 CST
+TOOL:	ncverilog	15.20-s039: Started on Oct 11, 2020 at 03:20:38 CST
 ncverilog
-	top.sv
+	cpu_rtl.sv
 	-c
-file: top.sv
-	module worklib.pc_controller:sv
-		errors: 0, warnings: 0
-	module worklib.pause_instruction_controller:sv
-		errors: 0, warnings: 0
-	module worklib.decoder:sv
-		errors: 0, warnings: 0
-	module worklib.control:sv
-		errors: 0, warnings: 0
-	module worklib.register:sv
-		errors: 0, warnings: 0
-	module worklib.imm_extended:sv
-		errors: 0, warnings: 0
-	module worklib.if_id_rst_controller:sv
-		errors: 0, warnings: 0
-	module worklib.id_exe_rst_controller:sv
-		errors: 0, warnings: 0
-	module worklib.exe_mem_rst_controller:sv
-		errors: 0, warnings: 0
-	module worklib.alu_rd:sv
-		errors: 0, warnings: 0
-	module worklib.alu_in_selector:sv
-		errors: 0, warnings: 0
-	module worklib.alu_addr:sv
-		errors: 0, warnings: 0
-	module worklib.alu_pc:sv
-		errors: 0, warnings: 0
-	module worklib.load_hazard:sv
-		errors: 0, warnings: 0
-	module worklib.divider4:sv
-		errors: 0, warnings: 0
-	module worklib.low_byte_control_write_data:sv
-		errors: 0, warnings: 0
-	module worklib.low_byte_control_read_data:sv
-		errors: 0, warnings: 0
-	module worklib.wb_controller:sv
-		errors: 0, warnings: 0
-	module worklib.forwarding_unit:sv
+Recompiling... reason: file './cpu_rtl.sv' is newer than expected.
+	expected: Sun Oct 11 02:17:51 2020
+	actual:   Sun Oct 11 03:20:16 2020
+file: cpu_rtl.sv
+	module worklib.pause_pc_controller:sv
 		errors: 0, warnings: 0
 	module worklib.cpu:sv
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
-		Caching library 'worklib' ....... Done
-  SRAM i_SRAM (
-            |
-ncelab: *E,CUVMUR (./SRAM_wrapper.sv,11|12): instance 'top.IM1@SRAM_wrapper<module>.i_SRAM' of design unit 'SRAM' is unresolved in 'worklib.SRAM_wrapper:sv'.
-  SRAM i_SRAM (
-            |
-ncelab: *E,CUVMUR (./SRAM_wrapper.sv,11|12): instance 'top.DM1@SRAM_wrapper<module>.i_SRAM' of design unit 'SRAM' is unresolved in 'worklib.SRAM_wrapper:sv'.
-ncverilog: *E,ELBERR: Error during elaboration (status 1), exiting.
-TOOL:	ncverilog	15.20-s039: Exiting on Oct 08, 2020 at 21:25:28 CST  (total: 00:00:01)
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.alu_addr:sv <0x2aaadbed>
+			streams:   0, words:     0
+		worklib.alu_in_selector:sv <0x6cc19ab1>
+			streams:   0, words:     0
+		worklib.alu_pc:sv <0x78a014fe>
+			streams:   0, words:     0
+		worklib.alu_rd:sv <0x5fb9b5c0>
+			streams:   0, words:     0
+		worklib.control:sv <0x4bb50333>
+			streams:   0, words:     0
+		worklib.cpu:sv <0x1e24881d>
+			streams:   0, words:     0
+		worklib.decoder:sv <0x53a952c0>
+			streams:   0, words:     0
+		worklib.divider4:sv <0x0941f9d2>
+			streams:   0, words:     0
+		worklib.exe_mem_rst_controller:sv <0x2dce4dc2>
+			streams:   0, words:     0
+		worklib.forwarding_unit:sv <0x766010bb>
+			streams:   0, words:     0
+		worklib.id_exe_rst_controller:sv <0x10045d1a>
+			streams:   0, words:     0
+		worklib.if_id_rst_controller:sv <0x0e1f63d3>
+			streams:   0, words:     0
+		worklib.imm_extended:sv <0x5f258023>
+			streams:   0, words:     0
+		worklib.load_hazard:sv <0x4e052ef8>
+			streams:   0, words:     0
+		worklib.low_byte_control_read_data:sv <0x3fe705b1>
+			streams:   0, words:     0
+		worklib.low_byte_control_write_data:sv <0x3ab507b0>
+			streams:   0, words:     0
+		worklib.pause_instruction_controller:sv <0x2c8d7d65>
+			streams:   0, words:     0
+		worklib.pause_pc_controller:sv <0x00bc42be>
+			streams:   0, words:     0
+		worklib.register:sv <0x2e9813bf>
+			streams:   0, words:     0
+		worklib.wb_controller:sv <0x1ecfecd7>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                 21      21
+		Registers:              132     132
+		Scalar wires:            49       -
+		Vectored wires:          81       -
+		Always blocks:           31      31
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.cpu:sv
+TOOL:	ncverilog	15.20-s039: Exiting on Oct 11, 2020 at 03:20:38 CST  (total: 00:00:00)

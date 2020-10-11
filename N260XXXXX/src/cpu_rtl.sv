@@ -1,5 +1,6 @@
 `timescale 1ns/10ps
 `include "pc_controller_rtl.sv"
+`include "pause_pc_controller_rtl.sv"
 `include "pause_instruction_controller_rtl.sv"
 `include "decoder_rtl.sv"
 `include "control_rtl.sv"
@@ -116,6 +117,7 @@ logic                        rs1_mem_hazard;
 logic                        rs2_exe_hazard;
 logic                        rs2_mem_hazard;
 logic                        exe_mem_rst;
+logic        [DATA_SIZE-1:0] pc_stage1_register;
 
 //DEBUG
 
@@ -155,7 +157,7 @@ begin:if_comb
 	im_web=4'b1111;
 	im_datain=32'd0;
 	stage1_register_in={instruction,
-						pc_register_out
+						pc_stage1_register
 						};
 end
 if_id_rst_controller ifidrst(
@@ -173,6 +175,13 @@ pause_instruction_controller pic(
 						
 						.instruction_data(instruction)
 						);
+pause_pc_controller ppc(
+						.instruction_stall(instruction_stall),
+						.pc(pc_register_out),
+						.past_pc(stage1_register_out[31:0]),
+									
+						.pc_data(pc_stage1_register)
+									);
 always_ff@(posedge clk)
 begin:if_id
 	if(if_id_rst==1'b1)
@@ -364,7 +373,8 @@ load_hazard lhd(
 				.id_exe_read_mem(stage2_register_out[153]),
 				
 				.pc_stall(pc_stall),
-				.instruction_stall(instruction_stall)
+				.instruction_stall(instruction_stall),
+				.pc_jump_confirm(stage3_register_out[133])
 				);
 forwarding_unit fwu(
 					.exe_mem_write_reg(stage3_register_out[140]),

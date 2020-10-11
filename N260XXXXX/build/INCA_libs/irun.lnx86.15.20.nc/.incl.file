@@ -2,6 +2,7 @@
 ./SRAM_wrapper.sv
 ./cpu_rtl.sv
 ./pc_controller_rtl.sv
+./pause_pc_controller_rtl.sv
 ./pause_instruction_controller_rtl.sv
 ./decoder_rtl.sv
 ./control_rtl.sv
