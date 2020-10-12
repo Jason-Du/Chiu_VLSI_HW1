@@ -8373,3 +8373,3599 @@ wvZoomIn -win $_nWave1
 wvZoomIn -win $_nWave1
 wvZoomIn -win $_nWave1
 wvZoomOut -win $_nWave1
+wvResizeWindow -win $_nWave1 -1 27 1625 733
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G3" 14 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 14 15 16 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 14 15 16 17 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G4" 3)}
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G3" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 5 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 5 6 7 8 9 10 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 5 )} 
+wvSetPosition -win $_nWave1 {("G3" 5)}
+wvSetPosition -win $_nWave1 {("G3" 6)}
+wvSetPosition -win $_nWave1 {("G3" 7)}
+wvSetPosition -win $_nWave1 {("G3" 8)}
+wvSetPosition -win $_nWave1 {("G3" 9)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 11)}
+wvSetPosition -win $_nWave1 {("G3" 12)}
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G3" 8 9 )} 
+wvScrollDown -win $_nWave1 25
+wvSelectSignal -win $_nWave1 {( "G4" 34 )} 
+wvScrollUp -win $_nWave1 8
+wvScrollDown -win $_nWave1 7
+wvScrollUp -win $_nWave1 12
+wvSelectSignal -win $_nWave1 {( "G4" 9 34 )} 
+wvSetPosition -win $_nWave1 {("G4" 9)}
+wvSetPosition -win $_nWave1 {("G4" 8)}
+wvSetPosition -win $_nWave1 {("G4" 7)}
+wvSetPosition -win $_nWave1 {("G4" 6)}
+wvSetPosition -win $_nWave1 {("G4" 5)}
+wvSetPosition -win $_nWave1 {("G4" 4)}
+wvSetPosition -win $_nWave1 {("G4" 3)}
+wvSetPosition -win $_nWave1 {("G4" 2)}
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvSetPosition -win $_nWave1 {("G3" 12)}
+wvSetPosition -win $_nWave1 {("G3" 11)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 9)}
+wvSetPosition -win $_nWave1 {("G3" 8)}
+wvSetPosition -win $_nWave1 {("G3" 7)}
+wvSetPosition -win $_nWave1 {("G3" 6)}
+wvSetPosition -win $_nWave1 {("G3" 5)}
+wvSetPosition -win $_nWave1 {("G3" 4)}
+wvSetPosition -win $_nWave1 {("G3" 3)}
+wvSetPosition -win $_nWave1 {("G3" 2)}
+wvSetPosition -win $_nWave1 {("G3" 1)}
+wvSetPosition -win $_nWave1 {("G3" 0)}
+wvSetPosition -win $_nWave1 {("G3" 1)}
+wvSetPosition -win $_nWave1 {("G3" 2)}
+wvSetPosition -win $_nWave1 {("G3" 3)}
+wvSetPosition -win $_nWave1 {("G3" 4)}
+wvSetPosition -win $_nWave1 {("G3" 5)}
+wvSetPosition -win $_nWave1 {("G3" 6)}
+wvSetPosition -win $_nWave1 {("G3" 7)}
+wvSetPosition -win $_nWave1 {("G3" 8)}
+wvSetPosition -win $_nWave1 {("G3" 9)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 11)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 12)}
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvSelectSignal -win $_nWave1 {( "G3" 11 12 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetRadix -win $_nWave1 -2Com
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G3" 15 )} 
+wvSetPosition -win $_nWave1 {("G3" 15)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G4" 2)}
+wvSelectSignal -win $_nWave1 {( "G3" 5 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 5 6 7 8 9 )} 
+wvSetPosition -win $_nWave1 {("G3" 9)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 11)}
+wvSetPosition -win $_nWave1 {("G3" 12)}
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvSetPosition -win $_nWave1 {("G3" 14)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G3" 14)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G3" 14)}
+wvSelectSignal -win $_nWave1 {( "G3" 6 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 6 7 )} 
+wvSetPosition -win $_nWave1 {("G3" 6)}
+wvSetPosition -win $_nWave1 {("G3" 5)}
+wvSetPosition -win $_nWave1 {("G3" 4)}
+wvSetPosition -win $_nWave1 {("G3" 3)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G3" 3)}
+wvSetPosition -win $_nWave1 {("G3" 5)}
+wvSelectSignal -win $_nWave1 {( "G3" 3 )} 
+wvSetCursor -win $_nWave1 7716507.959689 -snap {("G1" 3)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 7716500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 7717494.191893 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 7716500.000000 ID_RED5 \
+           long_dashed
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 7717500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 7718449.604340 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 7718500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 7719497.476056 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7719500.000000 ID_RED5 \
+           long_dashed
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvScrollDown -win $_nWave1 0
+wvSetCursor -win $_nWave1 7720504.254764 -snap {("G1" 1)}
+wvZoomIn -win $_nWave1
+wvScrollDown -win $_nWave1 1
+wvZoomOut -win $_nWave1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvZoomIn -win $_nWave1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSetCursor -win $_nWave1 7715978.887206 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 7716764.790993 -snap {("G1" 3)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7719500.000000 ID_RED5 \
+           line_solid
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 7718500.000000 ID_RED5 \
+           line_solid
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 7717500.000000 ID_RED5 \
+           line_solid
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 7716500.000000 ID_RED5 \
+           line_solid
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 7718500.000000 ID_RED5 \
+           long_dashed
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7719500.000000 ID_RED5 \
+           line_solid
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7719500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvSetCursor -win $_nWave1 7717590.703997 -snap {("G3" 4)}
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvSetPosition -win $_nWave1 {("G3" 7)}
+wvSetPosition -win $_nWave1 {("G3" 7)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/top_tb/TOP/DM1/DO\[31:0\]} \
+{/top_tb/TOP/DM1/OE} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/DM1/DI\[31:0\]} \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+{/top_tb/TOP/core/lhd/pc_stall} \
+{/top_tb/TOP/core/lhd/id_exe_read_mem} \
+{/top_tb/TOP/core/apc/pc_jump_control} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/DM1/A\[13:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvSelectSignal -win $_nWave1 {( "G3" 6 7 )} 
+wvSetPosition -win $_nWave1 {("G3" 7)}
+wvScrollUp -win $_nWave1 12
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/exememrst"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/dc"
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/top_tb/TOP/DM1/DO\[31:0\]} \
+{/top_tb/TOP/DM1/OE} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/dc/rd_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs2_addr\[4:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/DM1/DI\[31:0\]} \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+{/top_tb/TOP/core/lhd/pc_stall} \
+{/top_tb/TOP/core/lhd/id_exe_read_mem} \
+{/top_tb/TOP/core/apc/pc_jump_control} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/DM1/A\[13:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvSelectSignal -win $_nWave1 {( "G3" 8 9 10 )} 
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G3" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 10 )} 
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/adr"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/top_tb/TOP/DM1/DO\[31:0\]} \
+{/top_tb/TOP/DM1/OE} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/dc/rd_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/DM1/DI\[31:0\]} \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+{/top_tb/TOP/core/lhd/pc_stall} \
+{/top_tb/TOP/core/lhd/id_exe_read_mem} \
+{/top_tb/TOP/core/apc/pc_jump_control} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/DM1/A\[13:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvSelectSignal -win $_nWave1 {( "G3" 11 12 13 )} 
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvSelectSignal -win $_nWave1 {( "G3" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 7 )} 
+wvSetCursor -win $_nWave1 7717498.176822
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/adr"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/dc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/exe_comb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/exememrst"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvSetPosition -win $_nWave1 {("G3" 14)}
+wvSetPosition -win $_nWave1 {("G3" 14)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/top_tb/TOP/DM1/DO\[31:0\]} \
+{/top_tb/TOP/DM1/OE} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/dc/rd_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/DM1/DI\[31:0\]} \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+{/top_tb/TOP/core/lhd/pc_stall} \
+{/top_tb/TOP/core/lhd/id_exe_read_mem} \
+{/top_tb/TOP/core/apc/pc_jump_control} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/DM1/A\[13:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvSelectSignal -win $_nWave1 {( "G3" 14 )} 
+wvSetPosition -win $_nWave1 {("G3" 14)}
+wvScrollUp -win $_nWave1 7
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvSelectSignal -win $_nWave1 {( "G3" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G3" 14 )} 
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvSetPosition -win $_nWave1 {("G3" 12)}
+wvSetPosition -win $_nWave1 {("G3" 11)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 9)}
+wvSetPosition -win $_nWave1 {("G3" 8)}
+wvSetPosition -win $_nWave1 {("G3" 7)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G3" 7)}
+wvSetPosition -win $_nWave1 {("G3" 8)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/top_tb/TOP/DM1/DO\[31:0\]} \
+{/top_tb/TOP/DM1/OE} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/ais/rs1_hazard_control\[1:0\]} \
+{/top_tb/TOP/core/ais/rs2_hazard_control\[1:0\]} \
+{/top_tb/TOP/core/dc/rd_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/DM1/DI\[31:0\]} \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+{/top_tb/TOP/core/lhd/pc_stall} \
+{/top_tb/TOP/core/lhd/id_exe_read_mem} \
+{/top_tb/TOP/core/apc/pc_jump_control} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/DM1/A\[13:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvSelectSignal -win $_nWave1 {( "G3" 9 10 )} 
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvSetPosition -win $_nWave1 {("G3" 9)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 11)}
+wvSetPosition -win $_nWave1 {("G3" 12)}
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvSetPosition -win $_nWave1 {("G3" 14)}
+wvSetPosition -win $_nWave1 {("G3" 15)}
+wvSetPosition -win $_nWave1 {("G3" 16)}
+wvSetPosition -win $_nWave1 {("G3" 17)}
+wvSetPosition -win $_nWave1 {("G3" 16)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G3" 16)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G3" 16)}
+wvSetPosition -win $_nWave1 {("G3" 14)}
+wvSetPosition -win $_nWave1 {("G3" 18)}
+wvSetPosition -win $_nWave1 {("G3" 18)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/top_tb/TOP/DM1/DO\[31:0\]} \
+{/top_tb/TOP/DM1/OE} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/dc/rd_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/top_tb/TOP/core/ais/rs1_exe_hazard} \
+{/top_tb/TOP/core/ais/rs1_mem_hazard} \
+{/top_tb/TOP/core/ais/rs2_exe_hazard} \
+{/top_tb/TOP/core/ais/rs2_mem_hazard} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/DM1/DI\[31:0\]} \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+{/top_tb/TOP/core/lhd/pc_stall} \
+{/top_tb/TOP/core/lhd/id_exe_read_mem} \
+{/top_tb/TOP/core/apc/pc_jump_control} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/DM1/A\[13:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvSelectSignal -win $_nWave1 {( "G3" 15 16 17 18 )} 
+wvSetPosition -win $_nWave1 {("G3" 18)}
+wvScrollUp -win $_nWave1 7
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/dc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvSetPosition -win $_nWave1 {("G3" 19)}
+wvSetPosition -win $_nWave1 {("G3" 19)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/top_tb/TOP/DM1/DO\[31:0\]} \
+{/top_tb/TOP/DM1/OE} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/dc/rd_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/dc/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/top_tb/TOP/core/ais/rs1_exe_hazard} \
+{/top_tb/TOP/core/ais/rs1_mem_hazard} \
+{/top_tb/TOP/core/ais/rs2_exe_hazard} \
+{/top_tb/TOP/core/ais/rs2_mem_hazard} \
+{/top_tb/TOP/core/cl/write_reg} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/DM1/DI\[31:0\]} \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+{/top_tb/TOP/core/lhd/pc_stall} \
+{/top_tb/TOP/core/lhd/id_exe_read_mem} \
+{/top_tb/TOP/core/apc/pc_jump_control} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/DM1/A\[13:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvSelectSignal -win $_nWave1 {( "G3" 19 )} 
+wvSetPosition -win $_nWave1 {("G3" 19)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 4
+wvSelectSignal -win $_nWave1 {( "G3" 19 )} 
+wvSetPosition -win $_nWave1 {("G3" 11)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 9)}
+wvSetPosition -win $_nWave1 {("G3" 8)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G3" 8)}
+wvSetPosition -win $_nWave1 {("G3" 9)}
+wvSelectSignal -win $_nWave1 {( "G2" 1 )} 
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G2" 1 )} {( "G3" 1 2 )} 
+wvSetPosition -win $_nWave1 {("G2" 1)}
+wvSetPosition -win $_nWave1 {("G3" 1)}
+wvSetPosition -win $_nWave1 {("G3" 2)}
+wvSetPosition -win $_nWave1 {("G3" 3)}
+wvSetPosition -win $_nWave1 {("G3" 5)}
+wvSetPosition -win $_nWave1 {("G3" 6)}
+wvSetPosition -win $_nWave1 {("G3" 8)}
+wvSetPosition -win $_nWave1 {("G3" 9)}
+wvSetPosition -win $_nWave1 {("G3" 10)}
+wvSetPosition -win $_nWave1 {("G3" 11)}
+wvSetPosition -win $_nWave1 {("G3" 12)}
+wvSetPosition -win $_nWave1 {("G3" 13)}
+wvSetPosition -win $_nWave1 {("G3" 14)}
+wvSetPosition -win $_nWave1 {("G3" 15)}
+wvSetPosition -win $_nWave1 {("G3" 16)}
+wvSetPosition -win $_nWave1 {("G3" 17)}
+wvSetPosition -win $_nWave1 {("G3" 18)}
+wvSetPosition -win $_nWave1 {("G3" 19)}
+wvSetPosition -win $_nWave1 {("G3" 20)}
+wvSetPosition -win $_nWave1 {("G3" 21)}
+wvSetPosition -win $_nWave1 {("G3" 22)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G3" 23)}
+wvSelectGroup -win $_nWave1 {G2}
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G3" 24)}
+wvSetPosition -win $_nWave1 {("G3" 23)}
+wvSelectGroup -win $_nWave1 {G3}
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G4" 23)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSelectGroup -win $_nWave1 {G4}
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSelectGroup -win $_nWave1 {G5}
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSelectGroup -win $_nWave1 {G5}
+wvSelectGroup -win $_nWave1 {G5}
+wvSelectGroup -win $_nWave1 {G5}
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSelectGroup -win $_nWave1 {G5}
+wvUndo -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvScrollDown -win $_nWave1 0
+wvUndo -win $_nWave1
+wvUndo -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvUndo -win $_nWave1
+wvUndo -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvUndo -win $_nWave1
+wvUndo -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G4" 4 )} 
+wvSelectGroup -win $_nWave1 {G4}
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G4" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvPaste -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSelectGroup -win $_nWave1 {G4}
+wvPaste -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvPaste -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvPaste -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvPaste -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvPaste -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvPaste -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvPaste -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvPaste -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/cl/write_reg} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 14 15 )} 
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvScrollUp -win $_nWave1 15
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 14 15 )} 
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/rigt"
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/cl/write_reg} \
+{/top_tb/TOP/core/rigt/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs1_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs2_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/write_reg} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 11 12 13 )} 
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvScrollUp -win $_nWave1 6
+wvScrollUp -win $_nWave1 6
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/cl/write_reg} \
+{/top_tb/TOP/core/rigt/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs1_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs2_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/write_reg} \
+{/top_tb/TOP/core/ais/rs1_exe_hazard} \
+{/top_tb/TOP/core/ais/rs1_mem_hazard} \
+{/top_tb/TOP/core/ais/rs2_exe_hazard} \
+{/top_tb/TOP/core/ais/rs2_mem_hazard} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 14 15 16 17 )} 
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvScrollUp -win $_nWave1 10
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/cl/write_reg} \
+{/top_tb/TOP/core/rigt/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs1_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs2_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/write_reg} \
+{/top_tb/TOP/core/ais/rs1_exe_hazard} \
+{/top_tb/TOP/core/ais/rs1_mem_hazard} \
+{/top_tb/TOP/core/ais/rs2_exe_hazard} \
+{/top_tb/TOP/core/ais/rs2_mem_hazard} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 18 19 20 )} 
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvScrollUp -win $_nWave1 10
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/wbc"
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/cl/write_reg} \
+{/top_tb/TOP/core/rigt/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs1_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs2_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/write_reg} \
+{/top_tb/TOP/core/ais/rs1_exe_hazard} \
+{/top_tb/TOP/core/ais/rs1_mem_hazard} \
+{/top_tb/TOP/core/ais/rs2_exe_hazard} \
+{/top_tb/TOP/core/ais/rs2_mem_hazard} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/top_tb/TOP/core/wbc/wb_data\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvScrollUp -win $_nWave1 9
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 6
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/cl/write_reg} \
+{/top_tb/TOP/core/rigt/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs1_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs2_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/write_reg} \
+{/top_tb/TOP/core/ais/rs1_exe_hazard} \
+{/top_tb/TOP/core/ais/rs1_mem_hazard} \
+{/top_tb/TOP/core/ais/rs2_exe_hazard} \
+{/top_tb/TOP/core/ais/rs2_mem_hazard} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/top_tb/TOP/core/wbc/wb_data\[31:0\]} \
+{/top_tb/TOP/core/wbc/wb_control} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 7862438.760364 -snap {("G1" 3)}
+wvZoomIn -win $_nWave1
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 7862500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 7863478.763102 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 7863500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 7864500.790484 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 7864500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 7865507.410419 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7719500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7865500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvScrollDown -win $_nWave1 30
+wvScrollUp -win $_nWave1 6
+wvScrollDown -win $_nWave1 6
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/rigt"
+wvSelectSignal -win $_nWave1 {( "G4" 27 )} 
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 19
+wvScrollDown -win $_nWave1 8
+wvSelectSignal -win $_nWave1 {( "G4" 2 )} 
+wvScrollDown -win $_nWave1 11
+wvSelectSignal -win $_nWave1 {( "G4" 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 \
+           19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 \
+           19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvSelectGroup -win $_nWave1 {G4}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/cl/write_reg} \
+{/top_tb/TOP/core/rigt/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs1_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs2_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/write_reg} \
+{/top_tb/TOP/core/ais/rs1_exe_hazard} \
+{/top_tb/TOP/core/ais/rs1_mem_hazard} \
+{/top_tb/TOP/core/ais/rs2_exe_hazard} \
+{/top_tb/TOP/core/ais/rs2_mem_hazard} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/top_tb/TOP/core/wbc/wb_data\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvExpandBus -win $_nWave1 {("G4" 1)}
+wvSelectSignal -win $_nWave1 {( "G4" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 28 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 27 28 )} 
+wvSetPosition -win $_nWave1 {("G4" 27)}
+wvSetPosition -win $_nWave1 {("G4" 26)}
+wvSetPosition -win $_nWave1 {("G4" 25)}
+wvSetPosition -win $_nWave1 {("G4" 24)}
+wvSetPosition -win $_nWave1 {("G4" 23)}
+wvSetPosition -win $_nWave1 {("G4" 22)}
+wvSetPosition -win $_nWave1 {("G4" 21)}
+wvSetPosition -win $_nWave1 {("G4" 20)}
+wvSetPosition -win $_nWave1 {("G4" 19)}
+wvSetPosition -win $_nWave1 {("G4" 18)}
+wvSetPosition -win $_nWave1 {("G4" 17)}
+wvSetPosition -win $_nWave1 {("G4" 16)}
+wvSetPosition -win $_nWave1 {("G4" 14)}
+wvSetPosition -win $_nWave1 {("G4" 13)}
+wvSetPosition -win $_nWave1 {("G4" 12)}
+wvSetPosition -win $_nWave1 {("G4" 11)}
+wvSetPosition -win $_nWave1 {("G4" 10)}
+wvSetPosition -win $_nWave1 {("G4" 9)}
+wvSetPosition -win $_nWave1 {("G4" 8)}
+wvSetPosition -win $_nWave1 {("G4" 7)}
+wvSetPosition -win $_nWave1 {("G4" 6)}
+wvSetPosition -win $_nWave1 {("G4" 5)}
+wvSetPosition -win $_nWave1 {("G4" 4)}
+wvSetPosition -win $_nWave1 {("G4" 3)}
+wvSetPosition -win $_nWave1 {("G4" 2)}
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G1" 28)}
+wvSetPosition -win $_nWave1 {("G1" 27)}
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvSetPosition -win $_nWave1 {("G1" 19)}
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvScrollUp -win $_nWave1 12
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvSetPosition -win $_nWave1 {("G1" 19)}
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 23 24 )} 
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSelectSignal -win $_nWave1 {( "G1" 22 23 )} 
+wvSetRadix -win $_nWave1 -format Hex
+wvSelectSignal -win $_nWave1 {( "G1" 22 23 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetRadix -win $_nWave1 -2Com
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 7716507.116861 -snap {("G1" 3)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 7716500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 7717493.193532 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 7717500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 7718504.949282 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 7718500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 7719485.890137 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7865500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7719500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvSelectSignal -win $_nWave1 {( "G1" 18 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 20 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 18 19 20 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 23 )} 
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvSetPosition -win $_nWave1 {("G1" 27)}
+wvSetPosition -win $_nWave1 {("G1" 28)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 28)}
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvSelectSignal -win $_nWave1 {( "G1" 17 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 14 15 16 17 )} 
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvSetPosition -win $_nWave1 {("G1" 19)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 8 9 10 11 12 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 14 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 14 15 16 )} 
+wvSetRadix -win $_nWave1 -1Com
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 11 12 )} 
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/adr"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/cl/write_reg} \
+{/top_tb/TOP/core/rigt/write_reg} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs1_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs2_data\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/ais/rs1_exe_hazard} \
+{/top_tb/TOP/core/ais/rs1_mem_hazard} \
+{/top_tb/TOP/core/ais/rs2_exe_hazard} \
+{/top_tb/TOP/core/ais/rs2_mem_hazard} \
+{/BLANK} \
+{/top_tb/TOP/core/wbc/wb_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 23 24 25 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/ard/src1_signed\[31:0\]} \
+{/top_tb/TOP/core/ard/src2_signed\[31:0\]} \
+{/top_tb/TOP/core/cl/write_reg} \
+{/top_tb/TOP/core/rigt/write_reg} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs1_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs2_data\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/ais/rs1_exe_hazard} \
+{/top_tb/TOP/core/ais/rs1_mem_hazard} \
+{/top_tb/TOP/core/ais/rs2_exe_hazard} \
+{/top_tb/TOP/core/ais/rs2_mem_hazard} \
+{/BLANK} \
+{/top_tb/TOP/core/wbc/wb_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 )} 
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 3
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetRadix -win $_nWave1 -2Com
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 14 15 )} 
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 )} 
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 7862472.399961 -snap {("G1" 3)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 7862500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 7863499.306369 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 7863500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 7864485.383039 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 7718500.000000 ID_RED5 \
+           long_dashed
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 7864500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 7865517.682054 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7865500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSetRadix -win $_nWave1 -format Bin
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSetRadix -win $_nWave1 -format Bin
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetRadix -win $_nWave1 -format Bin
+wvSetRadix -win $_nWave1 -Unsigned
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/adr"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/dc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/dc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/exe_mem"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/iex"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/dc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1_signed\[31:0\]} \
+{/top_tb/TOP/core/ard/src2_signed\[31:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/funt7\[6:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/cl/write_reg} \
+{/top_tb/TOP/core/rigt/write_reg} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/ard/src2\[31:0\]} \
+{/top_tb/TOP/core/rigt/rs1_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs1_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/rs2_addr\[4:0\]} \
+{/top_tb/TOP/core/rigt/rs2_data\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/ais/rs1_exe_hazard} \
+{/top_tb/TOP/core/ais/rs1_mem_hazard} \
+{/top_tb/TOP/core/ais/rs2_exe_hazard} \
+{/top_tb/TOP/core/ais/rs2_mem_hazard} \
+{/BLANK} \
+{/top_tb/TOP/core/wbc/wb_data\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 12 13 )} 
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvScrollUp -win $_nWave1 7
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvResizeWindow -win $_nWave1 -1 27 1625 733
+wvResizeWindow -win $_nWave1 -1 27 1920 872
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 7895994.520246 -snap {("G1" 1)}
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 7896507.839438 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 7896500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 7897483.145903 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 7897500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 7898484.118328 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 7864500.000000 ID_RED5 \
+           long_dashed
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 7898500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 7899490.223945 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7899500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvScrollDown -win $_nWave1 6
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 \
+           22 23 24 25 26 27 28 29 30 31 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 )} 
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 5 )} 
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/dc"
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 10 11 )} 
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvScrollUp -win $_nWave1 4
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/exememrst"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/id_comb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/if_id"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/IM1"
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/IM1/OE} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvScrollUp -win $_nWave1 5
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DM1"
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/DM1/DO\[31:0\]} \
+{/top_tb/TOP/DM1/OE} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 )} 
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 13 )} 
+wvSetRadix -win $_nWave1 -format Hex
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/adr"
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/DM1/DO\[31:0\]} \
+{/top_tb/TOP/DM1/OE} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/adr/alu_addr_out\[31:0\]} \
+{/top_tb/TOP/core/adr/imm_data\[31:0\]} \
+{/top_tb/TOP/core/adr/src1\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 10 11 12 )} 
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvScrollUp -win $_nWave1 7
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 2
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/div4"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/exe_comb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/fwu"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/idexerst"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/id_exe"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/fwu"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/lhd"
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/core/adr/alu_addr_out\[31:0\]} \
+{/top_tb/TOP/core/adr/imm_data\[31:0\]} \
+{/top_tb/TOP/core/adr/src1\[31:0\]} \
+{/top_tb/TOP/DM1/DO\[31:0\]} \
+{/top_tb/TOP/DM1/OE} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/lhd/pc_stall} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/adr"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/adr"
+wvSetCursor -win $_nWave1 7903073.191906 -snap {("G4" 8)}
+wvJumpToolbarUserMarker -win $_nWave1 -name "program start"
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 7921502.420558 -snap {("G1" 4)}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 7922500.569727 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 7922500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 7923496.408960 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 7923500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 7924487.115001 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 7924500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 7925488.087426 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7925500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvSetCursor -win $_nWave1 7924954.235466 -snap {("G1" 18)}
+wvSelectSignal -win $_nWave1 {( "G1" 3 4 5 6 7 8 9 10 11 12 13 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvScrollUp -win $_nWave1 4
+wvUndo -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 3 4 5 6 7 8 9 10 11 12 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G4" 9)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvUndo -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvScrollDown -win $_nWave1 0
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 5 6 7 8 9 10 11 )} 
+wvScrollUp -win $_nWave1 14
+wvScrollDown -win $_nWave1 0
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G4" 6)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/adr"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/imm_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 5 6 7 )} 
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/div4"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/div4"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/dc"
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/imm_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 8 9 )} 
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvScrollUp -win $_nWave1 9
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetRadix -win $_nWave1 -2Com
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/core/cl/alu_rd_control\[4:0\]} \
+{/top_tb/TOP/core/ard/alu_rd_data\[31:0\]} \
+{/top_tb/TOP/core/ard/imm_data\[31:0\]} \
+{/top_tb/TOP/core/ard/src1\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvResizeWindow -win $_nWave1 -1 27 1920 1015
+wvResizeWindow -win $_nWave1 -1 27 1920 977
+wvResizeWindow -win $_nWave1 -1 42 939 72
+wvResizeWindow -win $_nWave1 -1 42 1128 503
+wvResizeWindow -win $_nWave1 -1 27 1920 977
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 8162481.141984 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 8162500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 8163471.848025 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 8163500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 8164488.220025 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 8164500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 8165499.458834 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 7925500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 8165500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvSetCursor -win $_nWave1 8163903.036146 -snap {("G4" 13)}
+wvJumpToolbarUserMarker -win $_nWave1 -name "MEM"
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 9 10 11 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvUndo -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 9 10 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/adr"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ais"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 )} 
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/id_comb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/div4"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/cl"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/ard"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/apc"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/adr"
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/adr/alu_addr_out\[31:0\]} \
+{/top_tb/TOP/core/adr/imm_data\[31:0\]} \
+{/top_tb/TOP/core/adr/src1\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 11 )} 
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvScrollUp -win $_nWave1 6
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DM1"
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/adr/alu_addr_out\[31:0\]} \
+{/top_tb/TOP/core/adr/imm_data\[31:0\]} \
+{/top_tb/TOP/core/adr/src1\[31:0\]} \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/adr/alu_addr_out\[31:0\]} \
+{/top_tb/TOP/core/adr/imm_data\[31:0\]} \
+{/top_tb/TOP/core/adr/src1\[31:0\]} \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+{/top_tb/TOP/DM1/DI\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvScrollUp -win $_nWave1 11
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 13 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 18 )} 
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 7)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 5 )} 
+wvSetCursor -win $_nWave1 8171500.390484 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 8171500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 8172496.229717 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 8172500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 8173492.068950 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 8173500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 8174498.174566 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 8165500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 8174500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/exe_comb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/core/div4"
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/clk} \
+{/top_tb/TOP/rst} \
+{/top_tb/TOP/core/pc_register_out\[31:0\]} \
+{/top_tb/TOP/IM1/DO\[31:0\]} \
+{/top_tb/TOP/core/dc/funt3\[2:0\]} \
+{/top_tb/TOP/core/dc/op_code\[6:0\]} \
+{/top_tb/TOP/core/cl/funt3\[2:0\]} \
+{/top_tb/TOP/core/cl/op_code\[6:0\]} \
+{/top_tb/TOP/core/adr/alu_addr_out\[31:0\]} \
+{/top_tb/TOP/core/adr/imm_data\[31:0\]} \
+{/top_tb/TOP/core/adr/src1\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[5\]\[31:0\]} \
+{/top_tb/TOP/core/div4/quotient\[31:0\]} \
+{/top_tb/TOP/core/div4/reminder\[31:0\]} \
+{/top_tb/TOP/DM1/WEB\[3:0\]} \
+{/top_tb/TOP/DM1/DI\[31:0\]} \
+{/BLANK} \
+{/BLANK} \
+{/BLANK} \
+{/top_tb/TOP/core/rigt/mreg\[6\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/top_tb/TOP/core/rigt/mreg\[31\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[30\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[29\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[28\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[27\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[26\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[25\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[24\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[23\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[22\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[21\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[20\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[19\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[18\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[17\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[16\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[15\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[14\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[13\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[12\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[11\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[10\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[9\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[8\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[7\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[4\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[3\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[2\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[1\]\[31:0\]} \
+{/top_tb/TOP/core/rigt/mreg\[0\]\[31:0\]} \
+{/BLANK} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+}
+wvCollapseGroup -win $_nWave1 "G5"
+wvSelectSignal -win $_nWave1 {( "G1" 13 14 )} 
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvResizeWindow -win $_nWave1 -1 39 1128 503
+wvResizeWindow -win $_nWave1 -1 27 1920 977
+wvSetCursor -win $_nWave1 8172489.299907 -snap {("G1" 3)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 8172500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 8173495.405524 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 8173500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 8174511.777524 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 8174500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 8175481.950797 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 8175500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvSetCursor -win $_nWave1 8173510.805099 -snap {("G1" 0)}
+wvSetCursor -win $_nWave1 8173500.538715 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 8173490.272332
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 8173490.272000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 8173495.405524 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "ID" 8173500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 8174506.644332 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "EXE" 8174500.000000 ID_RED5 \
+           line_solid
+wvSetCursor -win $_nWave1 8175476.817606 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "MEM" 8175500.000000 ID_RED5 \
+           long_dashed
+wvSetCursor -win $_nWave1 8176498.322798 -snap {("G1" 1)}
+wvSetMarker -win $_nWave1 -keepViewRange -name "WB" 8176500.000000 ID_RED5 \
+           dash_dot_dot_l
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSetRadix -win $_nWave1 -format Bin

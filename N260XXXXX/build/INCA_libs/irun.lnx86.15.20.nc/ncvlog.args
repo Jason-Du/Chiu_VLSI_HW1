@@ -13,7 +13,9 @@
 -INCDIR
 /home/khduh/Desktop/centosshare/winVerilog/HW1/N260XXXXX/./sim
 -DEFINE
-prog3
+prog0
+-DEFINE
+FSDB_ALL
 -DEFINE
 CYCLE=10.0
 -DEFINE
